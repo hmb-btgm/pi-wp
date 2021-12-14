@@ -8,6 +8,8 @@ class PI_Custom_Post_Type {
   function __construct() {
     //
     add_action( 'init', array( &$this, 'pi_init' ) );
+
+    add_action( 'admin_init', array( &$this, 'pi_extend_admin_capabilities' ) );
   }
 
   // Register Post Type
@@ -72,6 +74,35 @@ class PI_Custom_Post_Type {
         'assign_terms' => 'assign_pi_categories'
       )
     ));
+  }
+
+  // Extend Role List Capabilities
+  function pi_extend_admin_capabilities() {
+    $role_list = apply_filters( 'pi_extend_role_capabilities', array( 'administrator' ) );
+
+    $capabilities = array(
+      'publish_projects',
+      'edit_projects',
+      'edit_others_projects',
+      'delete_projects',
+      'delete_others_projects',
+      'read_private_projects',
+      'edit_project',
+      'delete_project',
+      'read_project',
+      'manage_pi_categories',
+      'assign_pi_categories'
+    );
+
+    //
+    foreach ( $role_list as $role_name ) {
+      $role = get_role( $role_name );
+
+      // add capability at role
+      foreach ( $capabilities as $cap ) {
+        $role->add_cap( $cap );
+      }
+    }
   }
 }
 
