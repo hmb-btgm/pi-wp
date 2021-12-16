@@ -16,8 +16,11 @@ if (!defined('ABSPATH')) die('-1');
 define( 'PI_VERSION', '1.0.0' );
 define( 'PI_REQUIRED_WP_VERSION', '5.7' );
 define( 'PI_TEXT_DOMAIN', 'pi' );
+define( 'PI_REDUX', 'pi' );
 define( 'PI_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'PI_PLUGIN_INC', PI_PLUGIN_DIR.'includes/' );
 define( 'PI_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 require_once( PI_PLUGIN_INC.'plugin-activation.php' );
+require_once( PI_PLUGIN_INC.'pi-custom-module.php' );
+require_once( PI_PLUGIN_INC.'pi-redux.php' );
