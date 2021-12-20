@@ -16,22 +16,22 @@ Redux_Metaboxes::set_box(
     'sections'   => array(
       array(
         'title'  => __( 'General Information', PI_TEXT_DOMAIN ),
-        'id'     => 'general-information',
+        'id'     => 'general_information',
         'desc'   => __( 'Project General Information'),
         'icon'   => 'el-icon-book',
         'fields' => array(
           array(
-            'id'       => 'general-info',
+            'id'       => 'general_info',
             'type'     => 'checkbox',
             'title'    => __( 'Project', PI_TEXT_DOMAIN ), 
             'options'  => array(
-                '1' => __( 'Is it Suitable for New Infrastructure' ),
-                '2' => __( 'Have a Login' ),
-                '3' => __( 'Have 2FA' )
+                'Infras' => __( 'Is it Suitable for New Infrastructure' ),
+                'Login' => __( 'Have a Login' ),
+                '2FA' => __( 'Have 2FA' )
             )
           ),
           array(
-            'id'       => 'criticality-level',
+            'id'       => 'criticality_level',
             'type'     => 'radio',
             'title'    => __( 'Criticality Level', PI_TEXT_DOMAIN ),
             'options'  => array(
@@ -49,13 +49,13 @@ Redux_Metaboxes::set_box(
           ),
           array(
             'title' => __( 'People in the Project', PI_TEXT_DOMAIN ),
-            'id'    => 'people-in-project',
+            'id'    => 'people_in_project',
             'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
             'type'  => 'textarea'
           ),
           array(
             'title' => __( 'Used technologies', PI_TEXT_DOMAIN ),
-            'id'    => 'used-technologies',
+            'id'    => 'used_technologies',
             'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
             'type'  => 'textarea'
           )
@@ -66,46 +66,46 @@ Redux_Metaboxes::set_box(
         'title'      => __( 'Database Information', PI_TEXT_DOMAIN ),
         'desc'       => __( 'Project Database Information'),
         'icon'       => 'el-icon-cog',
-        'id'         => 'database-information',
+        'id'         => 'database_information',
         'subsection' => true,
         'fields'     => array(
           array(
-            'id'       => 'ip-addresses',
+            'id'       => 'ip_addresses',
             'type'     => 'text',
             'title'    => __('IP Addresses', PI_TEXT_DOMAIN),
             'subtitle' => __('Enter the database IP addresses', PI_TEXT_DOMAIN),
             'mode'     => 'text',
             'options' => array(
-              'test' => __( 'Test Environment IP address'),
-              'prod' => __( 'Prod Environment IP address'),
-              'dev' => __( 'Dev Environment IP address')
+              'test' => __( 'Test IP'),
+              'prod' => __( 'Prod IP'),
+              'dev' => __( 'Dev IP')
             )
           ),
           array(
             'title' => __( 'DB Type', PI_TEXT_DOMAIN ),
-            'id'    => 'db-type',
+            'id'    => 'db_type',
             'type'  => 'text'
           ),
           array(
             'title' => __( 'DB Version', PI_TEXT_DOMAIN ),
-            'id'    => 'db-version',
+            'id'    => 'db_version',
             'type'  => 'text'
           ),
           array(
             'title' => __( 'DB Principals', PI_TEXT_DOMAIN ),
-            'id'    => 'db-principals',
+            'id'    => 'db_principals',
             'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
             'type'  => 'textarea'
           ),
           array(
-            'id'       => 'back-up',
+            'id'       => 'back_up',
             'type'     => 'checkbox',
             'title'    => __( 'Is the database backed up?', PI_TEXT_DOMAIN ),
             'subtitle' => __( '', PI_TEXT_DOMAIN ),
             'default'  => false
           ),
           array(
-            'id'       => 'db-backup-frequency',
+            'id'       => 'db_backup_frequency',
             'type'     => 'radio',
             'title'    => __( 'DB backup frequency?', PI_TEXT_DOMAIN ),
             'subtitle' => __( '', PI_TEXT_DOMAIN ),
@@ -123,11 +123,11 @@ Redux_Metaboxes::set_box(
         'title'      => __( 'Network Information', PI_TEXT_DOMAIN ),
         'desc'       => __( 'Project Network Information'),
         'icon'       => 'el-icon-cog',
-        'id'         => 'network-information',
+        'id'         => 'network_information',
         'subsection' => true,
         'fields'     => array(
           array(
-              'id'       => 'network-info',
+              'id'       => 'network_info',
               'type'     => 'checkbox',
               'title'    => __('Project', PI_TEXT_DOMAIN), 
               'options'  => array(
@@ -140,7 +140,7 @@ Redux_Metaboxes::set_box(
           ),
           array(
             'title' => __( 'Internal IP addresses', PI_TEXT_DOMAIN ),
-            'id'    => 'internal-ip-addresses',
+            'id'    => 'internal_ip_addresses',
             'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
             'type'  => 'text'
           ),
@@ -156,11 +156,11 @@ Redux_Metaboxes::set_box(
         'title'      => __( 'System Information', PI_TEXT_DOMAIN ),
         'desc'       => __( 'Project System Information'),
         'icon'       => 'el-icon-cog',
-        'id'         => 'system-information',
+        'id'         => 'system_information',
         'subsection' => true,
         'fields'     => array(
           array(
-            'id'       => 'system-info',
+            'id'       => 'system_info',
             'type'     => 'checkbox',
             'title'    => __('Project', PI_TEXT_DOMAIN), 
             'options'  => array(
@@ -172,28 +172,28 @@ Redux_Metaboxes::set_box(
           ),
           array(
             'title' => __( 'Log Type', PI_TEXT_DOMAIN ),
-            'id'    => 'log-type',
+            'id'    => 'log_type',
             'type'  => 'text'
           ),
           array(
             'title' => __( 'Os Version', PI_TEXT_DOMAIN ),
-            'id'    => 'os-version',
+            'id'    => 'os_version',
             'type'  => 'text'
           )
-        ),
+        )
       ),
 
       array(
         'title'      => __( 'Devops Information', PI_TEXT_DOMAIN ),
         'desc'       => __( 'Project Devops Information'),
         'icon'       => 'el-icon-cog',
-        'id'         => 'devops-information',
+        'id'         => 'devops_information',
         'subsection' => true,
         'fields'     => array(
           array(
             'title' => __( 'Pre-Prod Information', PI_TEXT_DOMAIN ),
-            'id'    => 'pre-prod-information',
-            'type'  => 'textarea',
+            'id'    => 'pre_prod_information',
+            'type'  => 'textarea'
           ),
         ),
       ),
