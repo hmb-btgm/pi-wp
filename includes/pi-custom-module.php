@@ -47,7 +47,6 @@ class PI_Custom_Post_Type {
       'menu_icon'          => 'dashicons-yes',
       'supports'           => array( 'title', 'editor', 'author' ),
       'map_meta_cap'       => true,
-      'capability_type'    => array( 'project', 'pi' ),
       'capabilities'       => array(
         'publish_posts'       => 'publish_projects',
         'edit_posts'          => 'edit_projects',
