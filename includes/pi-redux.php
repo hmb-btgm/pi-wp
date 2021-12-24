@@ -1,13 +1,13 @@
 <?php
 defined( 'ABSPATH' ) || exit;
 
-function pi_redux() {
+function pi_redux($args) {
 	$args = array(
-		'opt_name'				=> PI_REDUX,
+		'opt_name'		  => PI_REDUX,
 		'display_name'    => PI_REDUX,
 		'display_version' => PI_VERSION
 	);
-	
+
 	Redux::set_args( PI_REDUX, $args );
 	
 	// disable demo mode

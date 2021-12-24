@@ -41,24 +41,6 @@ Redux_Metaboxes::set_box(
             ),
             'default'  => '2'
           ),
-          array(
-            'title' => __( 'Coordinatorship', PI_TEXT_DOMAIN ),
-            'id'    => 'coordinatorship',
-            'subtitle' => __( 'Indicate the Coordinatorship to which you are affiliated', PI_TEXT_DOMAIN ),
-            'type'  => 'text'
-          ),
-          array(
-            'title' => __( 'People in the Project', PI_TEXT_DOMAIN ),
-            'id'    => 'people_in_project',
-            'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
-            'type'  => 'textarea'
-          ),
-          array(
-            'title' => __( 'Used technologies', PI_TEXT_DOMAIN ),
-            'id'    => 'used_technologies',
-            'subtitle' => __( 'Specify people by separating them with commas.', PI_TEXT_DOMAIN ),
-            'type'  => 'textarea'
-          )
         )
       ),
 
