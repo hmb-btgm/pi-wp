@@ -50,24 +50,36 @@ add_action( 'rest_api_init', function () {
     $team = $request->get_param( 'team' );
     $cat = $request->get_param( 'cat' );
     
-    if( !empty($tech) && !empty($team) && !empty($cat) ) {
-      $args['tax_query'] = array(
-        array(
-          'taxonomy' => 'pi_technologies',
-          'field'    => 'slug',
-          'terms'    => $tech
-        ),
-        array(
-          'taxonomy' => 'pi_teams',
-          'field'    => 'slug',
-          'terms'    => $team
-        ),
-        array(
-          'taxonomy' => 'pi_categories',
-          'field'    => 'slug',
-          'terms'    => $cat
-        )
-      );
+    $args['tax_query'] = array();
+
+    if( !empty($tech) ) {
+      array_push($args['tax_query'], array(
+        'taxonomy' => 'pi_technologies',
+        'field'    => 'slug', 
+        'operator' => 'AND',
+        'terms'    => explode(',',$tech)
+      ));
+    }
+
+    if( !empty($team) ) {
+      array_push($args['tax_query'], array(
+        'taxonomy' => 'pi_teams',
+        'field'    => 'slug',
+        'operator' => 'AND',
+        'terms'    => explode(',',$team)
+      ));
+    }
+
+    if( !empty($cat) ) {
+      array_push($args['tax_query'], array(
+        'taxonomy' => 'pi_categories',
+        'field'    => 'slug',
+        'terms'    => explode(',',$cat)
+      ));
+    }
+
+    if( count( $args['tax_query'] ) == 0 ) {
+      unset($args['tax_query']);
     }
   
     return $args;
