@@ -8,9 +8,10 @@ function pi_register_required_plugins() {
   //
 	$plugins = array(
 		array(
-			'name'      => 'Redux Framework',
-			'slug'      => 'redux-framework',
-			'required'  => true
+			'name'      				=> 'Redux Framework',
+			'slug'     	 				=> 'redux-framework',
+			'required'  				=> true,
+			'force_activation'	=> true
 		)
 	);
 
@@ -24,7 +25,11 @@ function pi_register_required_plugins() {
 		'dismissable'  => false,
 		'dismiss_msg'  => '',
 		'is_automatic' => true,
-		'message'      => ''
+		'message'      => '',
+		'strings'      => array(
+			'page_title'	=> __( 'Install Required Plugins', PI_TEXT_DOMAIN ),
+			'menu_title'  => __( 'Install Plugins', PI_TEXT_DOMAIN )
+		)
 	);
 
 	tgmpa( $plugins, $config );
