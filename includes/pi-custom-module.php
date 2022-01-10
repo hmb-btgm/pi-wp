@@ -38,6 +38,7 @@ class PI_Custom_Post_Type {
       'search_items'        => __( 'Search Technology', PI_TEXT_DOMAIN ),
       'popular_items'       => __( 'Popular Technologies', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Technologies', PI_TEXT_DOMAIN ),
+      'parent_item'         => __( 'Parent Technology ?' ),
       'edit_item'           => __( 'Edit Technology', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Technology', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Technology', PI_TEXT_DOMAIN ),
@@ -50,7 +51,7 @@ class PI_Custom_Post_Type {
       'singular_name'       => __( 'Team or Team Member', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Team or Team Member', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Teams', PI_TEXT_DOMAIN ),
-      'parent_item'         => __( 'Affiliated Team ?' ),
+      'parent_item'         => __( 'Parent Team ?' ),
       'edit_item'           => __( 'Edit Team or Team Member', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Team or Team Member', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Team or Team Member', PI_TEXT_DOMAIN ),
@@ -58,6 +59,22 @@ class PI_Custom_Post_Type {
       'new_item_name'       => __( 'Add Team or Team Member', PI_TEXT_DOMAIN ),
       'not_found'           => __( 'Teams or Team Member Not Found', PI_TEXT_DOMAIN ),
       'no_terms'            => __( 'No Teams or Team Member', PI_TEXT_DOMAIN ),
+      'filter_by_item'      => __( 'Filter', PI_TEXT_DOMAIN )
+    );
+
+    $os_labels = array(
+      'name'                => __( 'Operating Systems', PI_TEXT_DOMAIN ),
+      'singular_name'       => __( 'Operating System', PI_TEXT_DOMAIN ),
+      'search_items'        => __( 'Search OS', PI_TEXT_DOMAIN ),
+      'all_items'           => __( 'All Os', PI_TEXT_DOMAIN ),
+      'parent_item'         => __( 'Parent OS ?' ),
+      'edit_item'           => __( 'Edit Os', PI_TEXT_DOMAIN ),
+      'view_item'           => __( 'View Os', PI_TEXT_DOMAIN ),
+      'update_item'         => __( 'Update Os', PI_TEXT_DOMAIN ),
+      'add_new_item'        => __( 'Add New Os', PI_TEXT_DOMAIN ),
+      'new_item_name'       => __( 'Add Os', PI_TEXT_DOMAIN ),
+      'not_found'           => __( 'Os Not Found', PI_TEXT_DOMAIN ),
+      'no_terms'            => __( 'No OS', PI_TEXT_DOMAIN ),
       'filter_by_item'      => __( 'Filter', PI_TEXT_DOMAIN )
     );
 
@@ -95,8 +112,8 @@ class PI_Custom_Post_Type {
       'query_var'     => true,
       'rewrite'       => true,
       'show_in_rest'  => true,
-      'label'         => __( 'Project Categories', PI_TEXT_DOMAIN ),
-      'singular_name' => __( 'Project Category', PI_TEXT_DOMAIN ),
+      'label'         => __( 'Categories', PI_TEXT_DOMAIN ),
+      'singular_name' => __( 'Category', PI_TEXT_DOMAIN ),
       'capabilities'  => array(
         'manage_terms' => 'manage_pi_categories',
         'edit_terms'   => 'manage_pi_categories',
@@ -135,6 +152,21 @@ class PI_Custom_Post_Type {
         'assign_terms' => 'manage_pi_teams'
       )
     ));
+
+    // register operating system
+    register_taxonomy( 'pi_os', 'pi', array(
+      'labels'              => $os_labels,
+      'hierarchical'        => true,
+      'query_var'           => true,
+      'rewrite'             => true,
+      'show_in_rest'        => true,
+      'capabilities'        => array(
+        'manage_terms' => 'manage_pi_os',
+        'edit_terms'   => 'manage_pi_os',
+        'delete_terms' => 'manage_pi_os',
+        'assign_terms' => 'manage_pi_os'
+      )
+    ));
   }
 
   // Extend Role List Capabilities
@@ -154,7 +186,8 @@ class PI_Custom_Post_Type {
       'manage_pi_categories',
       'assign_pi_categories',
       'manage_pi_technologies',
-      'manage_pi_teams'
+      'manage_pi_teams',
+      'manage_pi_os'
     );
 
     //

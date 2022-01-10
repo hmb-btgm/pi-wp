@@ -1,0 +1,795 @@
+# Copyright (C) 2012 Co-Authors Plus
+# This file is distributed under the same license as the Co-Authors Plus package.
+msgid ""
+msgstr ""
+"Project-Id-Version: pi\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/co-authors-plus\n"
+"POT-Creation-Date: 2022-01-05 11:22+0300\n"
+"PO-Revision-Date: 2022-01-10 09:05+0300\n"
+"Last-Translator: Jurko Chervony <info@skinik.name>\n"
+"Language-Team: Fatih <fatih.akgul@hmb.gov.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_x;esc_html__;_e;esc_html_e;_n;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-tgm-plugin-activation.php:334
+#: includes/plugin-activation.php:30
+msgid "Install Required Plugins"
+msgstr "Gerekli Eklentiyi Yükle"
+
+#: includes/class-tgm-plugin-activation.php:335
+#: includes/plugin-activation.php:31
+msgid "Install Plugins"
+msgstr "Eklentiyi Yükle"
+
+#: includes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti Yükleniyor: %s"
+
+#: includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Eklenti Güncelleniyor : %s"
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Eklenti API sinde birşeyler yanlış gidiyor."
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Eklenti Yükleyicisinden Geri Çık"
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:920
+#: includes/class-tgm-plugin-activation.php:2626
+#: includes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Panele Geri Dön"
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarılı şekilde aktif edildi."
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "Takip edilen ekleti başarılı şekilde aktif edildi."
+
+#: includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Eklenti aktif edildi %1$s."
+
+#: includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Eklenti aktif edilemedi.Temanız için daha yüksek versiyonu gerekli %s.Lütfen "
+"eklentinizi güncelleyin."
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Bütün eklenti yüklendi ve başarılı şekilde aktif edildi. %1$s"
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Bu bildirimi kapat"
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Yüklemek, güncellemek veya etkinleştirmek için bir veya daha fazla gerekli "
+"veya önerilen eklenti var."
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Lütfen yardım için bu sitenin yöneticisiyle iletişime geçin."
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Güncelleme gerekli"
+
+#: includes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Bunun yerine parent_slug yapılandırma değişkenini ayarlayın."
+
+#: includes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Uzak eklenti paketi, istenen sümüklü böcek içeren bir klasör içermiyor ve "
+"yeniden adlandırma işe yaramadı."
+
+#: includes/class-tgm-plugin-activation.php:1027
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Lütfen eklenti sağlayıcıyla iletişime geçin ve eklentilerini WordPress "
+"yönergelerine göre paketlemelerini isteyin."
+
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Uzak eklenti paketi birden fazla dosyadan oluşur, ancak dosyalar bir "
+"klasörde paketlenmez."
+
+#: includes/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Gerekli"
+
+#: includes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Önerilen"
+
+#: includes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Deposu"
+
+#: includes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Dış Kaynak"
+
+#: includes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Önceden Paketlenmiş"
+
+#: includes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Yüklenmemiş"
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Yüklenmiş fakat aktif edilmemiş"
+
+#: includes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktif"
+
+#: includes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Gereklilik güncellendi fakat erişilebilir değil"
+
+#: includes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Gereklilik güncellendi"
+
+#: includes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Önerilen Güncelleme"
+
+#: includes/class-tgm-plugin-activation.php:2435
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "Yükle <span class=\"count\">(%s)</span>"
+
+#: includes/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "Güncelleme erişilebilir <span class=\"count\">(%s)</span>"
+
+#: includes/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "Aktif et  <span class=\"count\">(%s)</span>"
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "unknown"
+msgstr "bilinmeyen"
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Yüklenmiş versiyon:"
+
+#: includes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Gerekli olan en düşük versiyon :"
+
+#: includes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Mevcut versiyon :"
+
+#: includes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Yüklenecek güncellenecek veya aktif edilecek eklenti yok."
+
+#: includes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: includes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Kaynak"
+
+#: includes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Tür"
+
+#: includes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Versiyon"
+
+#: includes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Durum"
+
+#: includes/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Yükle %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Güncelle %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktif et %2$s"
+
+#: includes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Eklenti yazarından yükseltme mesajı:"
+
+#: includes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Yükle"
+
+#: includes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Güncelle"
+
+#: includes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktif et"
+
+#: includes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Yüklenmek üzere hiçbir eklenti seçilmedi. Herhangi bir işlem yapılmadı."
+
+#: includes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Güncellenmek üzere hiçbir eklenti seçilmedi. Herhangi bir işlem yapılmadı."
+
+#: includes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Şu anda kurulacak eklenti yok."
+
+#: includes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Şu anda güncellenecek eklenti yok."
+
+#: includes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Etkinleştirilmek üzere hiçbir eklenti seçilmedi. Herhangi bir işlem "
+"yapılmadı."
+
+#: includes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Şu anda etkinleştirilecek eklenti yok."
+
+#: includes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Eklenti aktivasyonu başarısız oldu."
+
+#: includes/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti Güncelleniyor %1$s (%2$d/%3$d)"
+
+#: includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Yükleme sırasında hata oluştu  %1$s: <strong>%2$s</strong>."
+
+#: includes/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s Yükleme tamamlanamadı."
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Kurulum ve aktivasyon işlemi başlıyor. Bu işlem bazı sunucularda biraz zaman "
+"alabilir, bu yüzden lütfen sabırlı olun."
+
+#: includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s başarılı şekilde yüklendi ve aktif edildi"
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Detayları göster"
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Detayları gizle"
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Tüm kurulumlar ve etkinleştirmeler tamamlandı."
+
+#: includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklentiyi Yükleme ve Etkinleştirme %1$s (%2$d/%3$d)"
+
+#: includes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Kurulum işlemi başlıyor. Bu işlem bazı sunucularda biraz zaman alabilir, bu "
+"yüzden lütfen sabırlı olun."
+
+#: includes/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s başarılı şekilde yüklendi."
+
+#: includes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Tüm kurulumlar tamamlandı."
+
+#: includes/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti yükleniyor %1$s (%2$d/%3$d)"
+
+#: includes/pi-custom-module.php:19 includes/pi-custom-module.php:21
+#: includes/pi-custom-module.php:22
+msgid "Project Inventory"
+msgstr "Proje Envanteri"
+
+#: includes/pi-custom-module.php:20 includes/pi-metaboxes.php:26
+#: includes/pi-metaboxes.php:114 includes/pi-metaboxes.php:147
+msgid "Project"
+msgstr "Proje"
+
+#: includes/pi-custom-module.php:23 includes/pi-custom-module.php:24
+msgid "Add Project"
+msgstr "Proje Ekle"
+
+#: includes/pi-custom-module.php:25
+msgid "New Project"
+msgstr "Yeni Proje"
+
+#: includes/pi-custom-module.php:26
+msgid "Edit Project"
+msgstr "Projeyi Düzenle"
+
+#: includes/pi-custom-module.php:27
+msgid "View Project"
+msgstr "Projeyi İncele"
+
+#: includes/pi-custom-module.php:28
+msgid "All Projects"
+msgstr "Tüm projeler"
+
+#: includes/pi-custom-module.php:29
+msgid "Search Project"
+msgstr "Proje Ara"
+
+#: includes/pi-custom-module.php:30
+msgid "Parent"
+msgstr "Aile"
+
+#: includes/pi-custom-module.php:31
+msgid "Project not found."
+msgstr "Proje bulunamadı."
+
+#: includes/pi-custom-module.php:32
+msgid "Project not found in trash."
+msgstr "Çöp kutusunda proje bulunamadı."
+
+#: includes/pi-custom-module.php:36
+msgid "Technologies"
+msgstr "Teknolojiler"
+
+#: includes/pi-custom-module.php:37
+msgid "Technology"
+msgstr "Teknoloji"
+
+#: includes/pi-custom-module.php:38
+msgid "Search Technology"
+msgstr "Teknoloji Ara"
+
+#: includes/pi-custom-module.php:39
+msgid "Popular Technologies"
+msgstr "Popüler Teknolojiler"
+
+#: includes/pi-custom-module.php:40
+msgid "All Technologies"
+msgstr "Bütün Teknolojiler"
+
+#: includes/pi-custom-module.php:41
+msgid "Parent Technology ?"
+msgstr "Bağlı olan Teknoloji"
+
+#: includes/pi-custom-module.php:42
+msgid "Edit Technology"
+msgstr "Teknolojiyi Düzenle"
+
+#: includes/pi-custom-module.php:43
+msgid "View Technology"
+msgstr "Teknolojiyi İncele"
+
+#: includes/pi-custom-module.php:44
+msgid "Update Technology"
+msgstr "Teknolojiyi Güncelle"
+
+#: includes/pi-custom-module.php:45
+msgid "Add New Technology"
+msgstr "Yeni Teknoloji Ekle"
+
+#: includes/pi-custom-module.php:46
+msgid "Add Technology Name"
+msgstr "Yeni Teknoloji İsmi Ekle"
+
+#: includes/pi-custom-module.php:50
+msgid "Teams"
+msgstr "Takımlar"
+
+#: includes/pi-custom-module.php:51
+msgid "Team or Team Member"
+msgstr "Takım ve Takım Üyesi"
+
+#: includes/pi-custom-module.php:52
+msgid "Search Team or Team Member"
+msgstr "Takım veya Takım Üyesi Ara"
+
+#: includes/pi-custom-module.php:53
+msgid "All Teams"
+msgstr "Bütün Takımlar"
+
+#: includes/pi-custom-module.php:54
+msgid "Parent Team ?"
+msgstr "Bağlı olan Takım"
+
+#: includes/pi-custom-module.php:55
+msgid "Edit Team or Team Member"
+msgstr "Takımı veya Takım üyesini düzenle"
+
+#: includes/pi-custom-module.php:56
+msgid "View Team or Team Member"
+msgstr "Takımı veya Takım üyesini görüntüle"
+
+#: includes/pi-custom-module.php:57
+msgid "Update Team or Team Member"
+msgstr "Takımı veya Takım üyesini Güncelle"
+
+#: includes/pi-custom-module.php:58
+msgid "Add New Team or Team Member"
+msgstr "Yeni Takımı veya Takım üyesini ekle"
+
+#: includes/pi-custom-module.php:59
+msgid "Add Team or Team Member"
+msgstr "Takımı veya Takım üyesi ekle"
+
+#: includes/pi-custom-module.php:60
+msgid "Teams or Team Member Not Found"
+msgstr "Takımı veya Takım üyesi bulunamadı"
+
+#: includes/pi-custom-module.php:61
+msgid "No Teams or Team Member"
+msgstr "Takımı veya Takım üyesi yok "
+
+#: includes/pi-custom-module.php:62 includes/pi-custom-module.php:78
+msgid "Filter"
+msgstr "Filtre"
+
+#: includes/pi-custom-module.php:66
+msgid "Operating Systems"
+msgstr "İşletim Sistemleri"
+
+#: includes/pi-custom-module.php:67
+msgid "Operating System"
+msgstr "İşletim Sistemi"
+
+#: includes/pi-custom-module.php:68
+msgid "Search OS"
+msgstr "İşletim Sistemi ara"
+
+#: includes/pi-custom-module.php:69
+msgid "All Os"
+msgstr "Bütün İşletim Sistemleri"
+
+#: includes/pi-custom-module.php:70
+msgid "Parent OS ?"
+msgstr "Bağlı olan İşletim Sistemi"
+
+#: includes/pi-custom-module.php:71
+msgid "Edit Os"
+msgstr "İşletim Sistemi Düzenle"
+
+#: includes/pi-custom-module.php:72
+msgid "View Os"
+msgstr "İşletim Sistemini görüntüle"
+
+#: includes/pi-custom-module.php:73
+msgid "Update Os"
+msgstr "İşletim Sistemini güncelle"
+
+#: includes/pi-custom-module.php:74
+msgid "Add New Os"
+msgstr "Yeni İşletim Sistemi Ekle"
+
+#: includes/pi-custom-module.php:75
+msgid "Add Os"
+msgstr "İşletim Sistemi Ekle"
+
+#: includes/pi-custom-module.php:76
+msgid "Os Not Found"
+msgstr "İşletim Sistemi Bulunamadı"
+
+#: includes/pi-custom-module.php:77
+msgid "No OS"
+msgstr "İşletim Sistemi yok"
+
+#: includes/pi-custom-module.php:115
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: includes/pi-custom-module.php:116
+msgid "Category"
+msgstr "Kategori"
+
+#: includes/pi-metaboxes.php:12
+msgid "Project Details"
+msgstr "Proje Detayları"
+
+#: includes/pi-metaboxes.php:18
+msgid "General Information"
+msgstr "Genel Bilgiler"
+
+#: includes/pi-metaboxes.php:20
+msgid "Project General Information"
+msgstr "Projenin Genel Bilgileri"
+
+#: includes/pi-metaboxes.php:28
+msgid "Is it Suitable for New Infrastructure"
+msgstr "Yeni Altyapıya uygun mu "
+
+#: includes/pi-metaboxes.php:29
+msgid "Have a Login"
+msgstr "Giriş varmı ?"
+
+#: includes/pi-metaboxes.php:30
+msgid "Have 2FA"
+msgstr "2FA varmı ?"
+
+#: includes/pi-metaboxes.php:36
+msgid "Criticality Level"
+msgstr "Kritiklik Seviyesi"
+
+#: includes/pi-metaboxes.php:38
+msgid "1"
+msgstr "1"
+
+#: includes/pi-metaboxes.php:39
+msgid "2"
+msgstr "2"
+
+#: includes/pi-metaboxes.php:40
+msgid "3"
+msgstr "3"
+
+#: includes/pi-metaboxes.php:48
+msgid "Database Information"
+msgstr "Veritabanı Bilgileri"
+
+#: includes/pi-metaboxes.php:49
+msgid "Project Database Information"
+msgstr "Projenin Veritabanı Bilgileri"
+
+#: includes/pi-metaboxes.php:57
+msgid "IP Addresses"
+msgstr "IP Adresleri"
+
+#: includes/pi-metaboxes.php:58
+msgid "Enter the database IP addresses"
+msgstr "Veritabanı IP adreslerini girin"
+
+#: includes/pi-metaboxes.php:61
+msgid "Test IP"
+msgstr "Test IP"
+
+#: includes/pi-metaboxes.php:62
+msgid "Prod IP"
+msgstr "Prod IP"
+
+#: includes/pi-metaboxes.php:63
+msgid "Dev IP"
+msgstr "Dev IP"
+
+#: includes/pi-metaboxes.php:67
+msgid "DB Type"
+msgstr "Veritabanı Türü"
+
+#: includes/pi-metaboxes.php:72
+msgid "DB Version"
+msgstr "Veritabanı Versiyonu"
+
+#: includes/pi-metaboxes.php:77
+msgid "DB Principals"
+msgstr "Veritabanı Sorumluluları"
+
+#: includes/pi-metaboxes.php:79 includes/pi-metaboxes.php:126
+#: includes/pi-metaboxes.php:132
+msgid "Specify people by separating them with commas."
+msgstr "Kişileri virgül ile ayırarak yazabilirsiniz."
+
+#: includes/pi-metaboxes.php:85
+msgid "Is the database backed up?"
+msgstr "Veritabanı yedekleniyorm u"
+
+#: includes/pi-metaboxes.php:92
+msgid "DB backup frequency?"
+msgstr "Veritabanı yedeklenme sıklığı ?"
+
+#: includes/pi-metaboxes.php:95
+msgid "1 month"
+msgstr "1 Ay"
+
+#: includes/pi-metaboxes.php:96
+msgid "2 month"
+msgstr "2 Ay"
+
+#: includes/pi-metaboxes.php:97
+msgid "3 month"
+msgstr "3 Ay"
+
+#: includes/pi-metaboxes.php:98
+msgid "Not backed up"
+msgstr "Yedeklenmiyor"
+
+#: includes/pi-metaboxes.php:105
+msgid "Network Information"
+msgstr "Ağ Bilgileri"
+
+#: includes/pi-metaboxes.php:106
+msgid "Project Network Information"
+msgstr "Projenin Ağ Bilgileri"
+
+#: includes/pi-metaboxes.php:116
+msgid "HTTP"
+msgstr "HTTP"
+
+#: includes/pi-metaboxes.php:117
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: includes/pi-metaboxes.php:118
+msgid "Is the internet on"
+msgstr "İnternet açık mı"
+
+#: includes/pi-metaboxes.php:119
+msgid "WAF"
+msgstr "WAF"
+
+#: includes/pi-metaboxes.php:120
+msgid "DB behind the firewall"
+msgstr "Veritabanı firewall ile korunuyor mu"
+
+#: includes/pi-metaboxes.php:124
+msgid "Internal IP addresses"
+msgstr "İç IP adresleri"
+
+#: includes/pi-metaboxes.php:130
+msgid "Subnets"
+msgstr "Alt Ağlar (Subnets)"
+
+#: includes/pi-metaboxes.php:138
+msgid "System Information"
+msgstr "Sistem Bilgileri"
+
+#: includes/pi-metaboxes.php:139
+msgid "Project System Information"
+msgstr "Projenin Sistem Bilgileri"
+
+#: includes/pi-metaboxes.php:149
+msgid "Have Log"
+msgstr "Log tutuluyor mu "
+
+#: includes/pi-metaboxes.php:150
+msgid "Is it DMZ"
+msgstr "DMZ mi"
+
+#: includes/pi-metaboxes.php:151
+msgid "Does the server have internet?"
+msgstr "Serverda internet var mı"
+
+#: includes/pi-metaboxes.php:152
+msgid "Is it up to date"
+msgstr "Güncel mi "
+
+#: includes/pi-metaboxes.php:156
+msgid "Log Type"
+msgstr "Log türü"
+
+#: includes/pi-metaboxes.php:161
+msgid "Os Version"
+msgstr "İşletim sistemi versiyonu"
+
+#: includes/pi-metaboxes.php:169
+msgid "Devops Information"
+msgstr "Devops Bilgileri"
+
+#: includes/pi-metaboxes.php:170
+msgid "Project Devops Information"
+msgstr "Projenin Devops Bilgileri"
+
+#: includes/pi-metaboxes.php:176
+msgid "Pre-Prod Information"
+msgstr "Pre-Prod Bilgileri"
+
+#~ msgid "Affiliated Team ?"
+#~ msgstr "Bağlı Takım"
+
+#~ msgid "Item #"
+#~ msgstr "Nesne #"
+
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgid "Remove"
+#~ msgstr "Sil"
+
+#~ msgid "Choose"
+#~ msgstr "Seç"
+
+#~ msgid "Settings Saved."
+#~ msgstr "Ayarlar Kaydedildi."
+
+#~ msgid "Theme Options"
+#~ msgstr "Tema Ayarları"
+
+#~ msgid "Authors"
+#~ msgstr "Yazar"
+
+#~ msgid "Posts"
+#~ msgstr "Gönderiler"
+
+#~ msgid "Mine"
+#~ msgstr "Senin Kayıtların"
+
+#~ msgid "Comment: "
+#~ msgstr "Yorumlar:"

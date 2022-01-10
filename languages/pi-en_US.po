@@ -1,0 +1,1009 @@
+# Copyright (C) 2012 Co-Authors Plus
+# This file is distributed under the same license as the Co-Authors Plus package.
+msgid ""
+msgstr ""
+"Project-Id-Version: pi\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/co-authors-plus\n"
+"POT-Creation-Date: 2022-01-05 08:42+0300\n"
+"PO-Revision-Date: 2022-01-05 08:54+0300\n"
+"Last-Translator: Jurko Chervony <info@skinik.name>\n"
+"Language-Team: Fatih <fatih.akgul@hmb.gov.tr>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_x;esc_html__;_e;esc_html_e;_n;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-tgm-plugin-activation.php:334
+#: includes/plugin-activation.php:30
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: includes/class-tgm-plugin-activation.php:335
+#: includes/plugin-activation.php:31
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: includes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: includes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Updating Plugin: %s"
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:920
+#: includes/class-tgm-plugin-activation.php:2626
+#: includes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "The following plugin was activated successfully:"
+
+#: includes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: includes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+
+#: includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Update Required"
+
+#: includes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Set the parent_slug config variable instead."
+
+#: includes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+
+#: includes/class-tgm-plugin-activation.php:1027
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+
+#: includes/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Required"
+
+#: includes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recommended"
+
+#: includes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: includes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "External Source"
+
+#: includes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: includes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: includes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2435
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/pi-custom-module.php:19 includes/pi-custom-module.php:21
+#: includes/pi-custom-module.php:22
+msgid "Project Inventory"
+msgstr ""
+
+#: includes/pi-custom-module.php:20 includes/pi-metaboxes.php:26
+#: includes/pi-metaboxes.php:114 includes/pi-metaboxes.php:147
+msgid "Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:23 includes/pi-custom-module.php:24
+msgid "Add Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:25
+msgid "New Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:26
+msgid "Edit Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:27
+msgid "View Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:28
+msgid "All Projects"
+msgstr ""
+
+#: includes/pi-custom-module.php:29
+msgid "Search Project"
+msgstr ""
+
+#: includes/pi-custom-module.php:30
+msgid "Parent"
+msgstr ""
+
+#: includes/pi-custom-module.php:31
+msgid "Project not found."
+msgstr ""
+
+#: includes/pi-custom-module.php:32
+msgid "Project not found in trash."
+msgstr ""
+
+#: includes/pi-custom-module.php:36
+msgid "Technologies"
+msgstr ""
+
+#: includes/pi-custom-module.php:37
+msgid "Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:38
+msgid "Search Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:39
+msgid "Popular Technologies"
+msgstr ""
+
+#: includes/pi-custom-module.php:40
+msgid "All Technologies"
+msgstr ""
+
+#: includes/pi-custom-module.php:41
+msgid "Edit Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:42
+msgid "View Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:43
+msgid "Update Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:44
+msgid "Add New Technology"
+msgstr ""
+
+#: includes/pi-custom-module.php:45
+msgid "Add Technology Name"
+msgstr ""
+
+#: includes/pi-custom-module.php:49
+msgid "Teams"
+msgstr ""
+
+#: includes/pi-custom-module.php:50
+msgid "Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:51
+msgid "Search Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:52
+msgid "All Teams"
+msgstr ""
+
+#: includes/pi-custom-module.php:53
+msgid "Affiliated Team ?"
+msgstr ""
+
+#: includes/pi-custom-module.php:54
+msgid "Edit Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:55
+msgid "View Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:56
+msgid "Update Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:57
+msgid "Add New Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:58
+msgid "Add Team or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:59
+msgid "Teams or Team Member Not Found"
+msgstr ""
+
+#: includes/pi-custom-module.php:60
+msgid "No Teams or Team Member"
+msgstr ""
+
+#: includes/pi-custom-module.php:61
+msgid "Filter"
+msgstr ""
+
+#: includes/pi-custom-module.php:98
+msgid "Project Categories"
+msgstr ""
+
+#: includes/pi-custom-module.php:99
+msgid "Project Category"
+msgstr ""
+
+#: includes/pi-metaboxes.php:12
+msgid "Project Details"
+msgstr ""
+
+#: includes/pi-metaboxes.php:18
+msgid "General Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:20
+msgid "Project General Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:28
+msgid "Is it Suitable for New Infrastructure"
+msgstr ""
+
+#: includes/pi-metaboxes.php:29
+msgid "Have a Login"
+msgstr ""
+
+#: includes/pi-metaboxes.php:30
+msgid "Have 2FA"
+msgstr ""
+
+#: includes/pi-metaboxes.php:36
+msgid "Criticality Level"
+msgstr ""
+
+#: includes/pi-metaboxes.php:38
+msgid "1"
+msgstr ""
+
+#: includes/pi-metaboxes.php:39
+msgid "2"
+msgstr ""
+
+#: includes/pi-metaboxes.php:40
+msgid "3"
+msgstr ""
+
+#: includes/pi-metaboxes.php:48
+msgid "Database Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:49
+msgid "Project Database Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:57
+msgid "IP Addresses"
+msgstr ""
+
+#: includes/pi-metaboxes.php:58
+msgid "Enter the database IP addresses"
+msgstr ""
+
+#: includes/pi-metaboxes.php:61
+msgid "Test IP"
+msgstr ""
+
+#: includes/pi-metaboxes.php:62
+msgid "Prod IP"
+msgstr ""
+
+#: includes/pi-metaboxes.php:63
+msgid "Dev IP"
+msgstr ""
+
+#: includes/pi-metaboxes.php:67
+msgid "DB Type"
+msgstr ""
+
+#: includes/pi-metaboxes.php:72
+msgid "DB Version"
+msgstr ""
+
+#: includes/pi-metaboxes.php:77
+msgid "DB Principals"
+msgstr ""
+
+#: includes/pi-metaboxes.php:79 includes/pi-metaboxes.php:126
+#: includes/pi-metaboxes.php:132
+msgid "Specify people by separating them with commas."
+msgstr ""
+
+#: includes/pi-metaboxes.php:85
+msgid "Is the database backed up?"
+msgstr ""
+
+#: includes/pi-metaboxes.php:92
+msgid "DB backup frequency?"
+msgstr ""
+
+#: includes/pi-metaboxes.php:95
+msgid "1 month"
+msgstr ""
+
+#: includes/pi-metaboxes.php:96
+msgid "2 month"
+msgstr ""
+
+#: includes/pi-metaboxes.php:97
+msgid "3 month"
+msgstr ""
+
+#: includes/pi-metaboxes.php:98
+msgid "Not backed up"
+msgstr ""
+
+#: includes/pi-metaboxes.php:105
+msgid "Network Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:106
+msgid "Project Network Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:116
+msgid "HTTP"
+msgstr ""
+
+#: includes/pi-metaboxes.php:117
+msgid "HTTPS"
+msgstr ""
+
+#: includes/pi-metaboxes.php:118
+msgid "Is the internet on"
+msgstr ""
+
+#: includes/pi-metaboxes.php:119
+msgid "WAF"
+msgstr ""
+
+#: includes/pi-metaboxes.php:120
+msgid "DB behind the firewall"
+msgstr ""
+
+#: includes/pi-metaboxes.php:124
+msgid "Internal IP addresses"
+msgstr ""
+
+#: includes/pi-metaboxes.php:130
+msgid "Subnets"
+msgstr ""
+
+#: includes/pi-metaboxes.php:138
+msgid "System Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:139
+msgid "Project System Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:149
+msgid "Have Log"
+msgstr ""
+
+#: includes/pi-metaboxes.php:150
+msgid "Is it DMZ"
+msgstr ""
+
+#: includes/pi-metaboxes.php:151
+msgid "Does the server have internet?"
+msgstr ""
+
+#: includes/pi-metaboxes.php:152
+msgid "Is it up to date"
+msgstr ""
+
+#: includes/pi-metaboxes.php:156
+msgid "Log Type"
+msgstr ""
+
+#: includes/pi-metaboxes.php:161
+msgid "Os Version"
+msgstr ""
+
+#: includes/pi-metaboxes.php:169
+msgid "Devops Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:170
+msgid "Project Devops Information"
+msgstr ""
+
+#: includes/pi-metaboxes.php:176
+msgid "Pre-Prod Information"
+msgstr ""
+
+#~ msgid "SSS Yönetimi"
+#~ msgstr "FAQ Management"
+
+#~ msgid "SSS"
+#~ msgstr "FAQ"
+
+#~ msgid "Yeni SSS"
+#~ msgstr "New FAQ"
+
+#~ msgid "Yeni SSS Ekle"
+#~ msgstr "Add New FAQ"
+
+#~ msgid "SSS Düzenle"
+#~ msgstr "Edit FAQ"
+
+#~ msgid "SSS Görüntüle"
+#~ msgstr "View FAQ"
+
+#~ msgid "Tüm SSS"
+#~ msgstr "All FAQ"
+
+#~ msgid "SSS Ara"
+#~ msgstr "Find FAQ"
+
+#~ msgid "Üst"
+#~ msgstr "Up"
+
+#~ msgid "SSS bulunamadı."
+#~ msgstr "No FAQ found."
+
+#~ msgid "Çöp kutusunda SSS bulunamadı."
+#~ msgstr "No FAQ found in trash."
+
+#~ msgid "İçerikleri Süz"
+#~ msgstr "Filter"
+
+#~ msgid "Verinin Adı"
+#~ msgstr "Data Name"
+
+#~ msgid "Son Güncelleme"
+#~ msgstr "Last Update"
+
+#~ msgid "Zaman Serisi"
+#~ msgstr "Time Series"
+
+#~ msgid "Metaveri"
+#~ msgstr "Metadata"
+
+#~ msgid "Yayınlama Takvimi"
+#~ msgstr "Calendar of Release"
+
+#~ msgid "Mevzuat"
+#~ msgstr "Legislation"
+
+#~ msgid "Tarih"
+#~ msgstr "Date"
+
+#~ msgid "Rapor"
+#~ msgstr "Report"
+
+#~ msgid "Periodu"
+#~ msgstr "Period"
+
+#~ msgid "Bilgi"
+#~ msgstr "Info"
+
+#~ msgid "Mevzuat Yönetimi"
+#~ msgstr "Legislation Management"
+
+#~ msgid "Yeni Mevzuat"
+#~ msgstr "New Legislation"
+
+#~ msgid "Yeni Mevzuat Ekle"
+#~ msgstr "Add New Legislation"
+
+#~ msgid "Mevzuatı Düzenle"
+#~ msgstr "Edit Legislation"
+
+#~ msgid "Mevzuatı Görüntüle"
+#~ msgstr "View Legislation"
+
+#~ msgid "Tüm Mevzuatlar"
+#~ msgstr "All Legislations"
+
+#~ msgid "Mevzuatlarda Ara"
+#~ msgstr "Find Legislation"
+
+#~ msgid "Mevzuat bulunamadı."
+#~ msgstr "No legislation found."
+
+#~ msgid "Çöp kutusunda mevzuat bulunamadı."
+#~ msgstr "No legislation found in trash."
+
+#~ msgid "Sunumlar"
+#~ msgstr "Presentations"
+
+#~ msgid "Sunum"
+#~ msgstr "Presentation"
+
+#~ msgid "Yeni Sunum"
+#~ msgstr "New Presentation"
+
+#~ msgid "Yeni Sunum Ekle"
+#~ msgstr "Add New Presentation"
+
+#~ msgid "Sunumu Düzenle"
+#~ msgstr "Edit Presentation"
+
+#~ msgid "Sunumu Görüntüle"
+#~ msgstr "View Presentation"
+
+#~ msgid "Tüm Sunumlar"
+#~ msgstr "All Presentations"
+
+#~ msgid "Sunumlarda Ara"
+#~ msgstr "Find Presentation"
+
+#~ msgid "Sunum bulunamadı."
+#~ msgstr "No presentation found."
+
+#~ msgid "Çöp kutusunda sunum bulunamadı."
+#~ msgstr "No presentation found in trash."
+
+#~ msgid "Rapor Yönetimi"
+#~ msgstr "Report Management"
+
+#~ msgid "Yeni Rapor"
+#~ msgstr "New Report"
+
+#~ msgid "Yeni Rapor Ekle"
+#~ msgstr "Add New Report"
+
+#~ msgid "Raporu Düzenle"
+#~ msgstr "Edit Report"
+
+#~ msgid "Raporu Görüntüle"
+#~ msgstr "View Report"
+
+#~ msgid "Tüm Raporlar"
+#~ msgstr "All Reports"
+
+#~ msgid "Raporlarda Ara"
+#~ msgstr "Find Reports"
+
+#~ msgid "Rapor bulunamadı."
+#~ msgstr "Report not found."
+
+#~ msgid "Çöp kutusunda rapor bulunamadı."
+#~ msgstr "Report not found in trash."
+
+#~ msgid "İstatistik Yönetimi"
+#~ msgstr "Statistics Management"
+
+#~ msgid "İstatistik"
+#~ msgstr "Statistics"
+
+#~ msgid "Yeni İstatistik"
+#~ msgstr "New Statistics"
+
+#~ msgid "Yeni İstatistik Ekle"
+#~ msgstr "Add New Statistics"
+
+#~ msgid "İstatistiği Düzenle"
+#~ msgstr "Edit Statistics"
+
+#~ msgid "İstatistiği Görüntüle"
+#~ msgstr "View Statistics"
+
+#~ msgid "Tüm İstatistikler"
+#~ msgstr "All Statistics"
+
+#~ msgid "İstatistiklerde Ara"
+#~ msgstr "Find Statistics"
+
+#~ msgid "İstatistik bulunamadı."
+#~ msgstr "No statistics found."
+
+#~ msgid "Çöp kutusunda İstatistik bulunamadı."
+#~ msgstr "No statistics found in trash."
+
+#~ msgid "Duyuru Ek Ayarları"
+#~ msgstr "Announcement Extra Settings"
+
+#~ msgid "Yayından Kaldırma Tarihi"
+#~ msgstr "Release End Date"
+
+#~ msgid "Manşette Başlık Göster"
+#~ msgstr "Show Title on Headline News"
+
+#~ msgid "Manşete Özel Bağlantı"
+#~ msgstr "External URL for Headline News"
+
+#~ msgid ""
+#~ "Manşetteki fotoğrafa farklı bir bağlantı verilmek istenildiğinde "
+#~ "kullanılır. Buraya bağlantı girdiğinizde kullanıcılar manşetten duyuru "
+#~ "detayına erişemezler"
+#~ msgstr ""
+#~ "It is used when you want to give a different connection to the photo in "
+#~ "the cuff. Users cannot access the announcement details when you enter a "
+#~ "link here"
+
+#~ msgid "Sayfa Ek Ayarları"
+#~ msgstr "Page Extra Settings"
+
+#~ msgid "Sayfa Ayarları"
+#~ msgstr "Page Settings"
+
+#~ msgid "Kenar Çubuğu"
+#~ msgstr "Sidebar"
+
+#~ msgid "Sunum Ek Ayarları"
+#~ msgstr "Presentation Extra Settings"
+
+#~ msgid "Sunum Dosyası"
+#~ msgstr "Presentation File"
+
+#~ msgid "Kişi"
+#~ msgstr "Who is"
+
+#~ msgid "Mevzuat Ek Ayarları"
+#~ msgstr "Legislation Extra Settings"
+
+#~ msgid "mevzuat.gov.tr üzerindeki bağlantılar da kullanılabilir"
+#~ msgstr "you can use mevzuat.gov.tr URL on this field"
+
+#~ msgid "Yayınlanma Tarihi"
+#~ msgstr "Release Date"
+
+#~ msgid "Rapor Ek Ayarları"
+#~ msgstr "Report Extra Settings"
+
+#~ msgid "Rapor Dosyası"
+#~ msgstr "Report File"
+
+#~ msgid "Yayınlama Periodu"
+#~ msgstr "Period"
+
+#~ msgid "Dosya"
+#~ msgstr "File"
+
+#~ msgid "Yayın Tarihi"
+#~ msgstr "Release Date"
+
+#~ msgid "Site Ayarları"
+#~ msgstr "Site Settings"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Duyuru Kategorileri"
+#~ msgstr "Announcement Categories"
+
+#~ msgid ""
+#~ "Yalnızca görünmesini istediğiniz kategori ID'lerini virgül ile ayırarak "
+#~ "girebilirsiniz."
+#~ msgstr ""
+#~ "You can enter only the category IDs that you want to appear by separating "
+#~ "them with commas."
+
+#~ msgid "Site Altı Açıklaması"
+#~ msgstr "Footer Text"
+
+#~ msgid "Özel Kenar Çubuğu"
+#~ msgstr "Special Sidebar"
+
+#~ msgid "Ana Menü"
+#~ msgstr "Main Menu"
+
+#~ msgid "Item #"
+#~ msgstr "Item #"
+
+#~ msgid "New"
+#~ msgstr "New"
+
+#~ msgid "Add New"
+#~ msgstr "Add New"
+
+#~ msgid "Remove"
+#~ msgstr "Remove"
+
+#~ msgid "Choose"
+#~ msgstr "Choose"
+
+#~ msgid "Kenar Çubuğu Olmasın"
+#~ msgstr "Don't use Sidebar"
+
+#~ msgid "Settings Saved."
+#~ msgstr "Settings Saved."
+
+#~ msgid "Theme Options"
+#~ msgstr "Theme Options"
+
+#~ msgid "Authors"
+#~ msgstr "Yazar"
+
+#~ msgid "Posts"
+#~ msgstr "Gönderiler"
+
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+
+#~ msgid "Mine"
+#~ msgstr "Senin Kayıtların"
+
+#~ msgid "Comment: "
+#~ msgstr "Yorumlar:"
