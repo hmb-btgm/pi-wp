@@ -38,7 +38,7 @@ class PI_Custom_Post_Type {
       'search_items'        => __( 'Search Technology', PI_TEXT_DOMAIN ),
       'popular_items'       => __( 'Popular Technologies', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Technologies', PI_TEXT_DOMAIN ),
-      'parent_item'         => __( 'Parent Technology ?' ),
+      'parent_item'         => __( 'Parent Technology ?', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Technology', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Technology', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Technology', PI_TEXT_DOMAIN ),
@@ -51,11 +51,7 @@ class PI_Custom_Post_Type {
       'singular_name'       => __( 'Team or Team Member', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Team or Team Member', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Teams', PI_TEXT_DOMAIN ),
-<<<<<<< Updated upstream
-      'parent_item'         => __( 'Which Team of Member?' ),
-=======
-      'parent_item'         => __( 'Parent Team ?' ),
->>>>>>> Stashed changes
+      'parent_item'         => __( 'Parent Team ?', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Team or Team Member', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Team or Team Member', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Team or Team Member', PI_TEXT_DOMAIN ),
@@ -71,7 +67,7 @@ class PI_Custom_Post_Type {
       'singular_name'       => __( 'Operating System', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search OS', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Os', PI_TEXT_DOMAIN ),
-      'parent_item'         => __( 'Parent OS ?' ),
+      'parent_item'         => __( 'Parent OS ?', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Os', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Os', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Os', PI_TEXT_DOMAIN ),
@@ -137,7 +133,7 @@ class PI_Custom_Post_Type {
         'manage_terms' => 'manage_pi_technologies',
         'edit_terms'   => 'manage_pi_technologies',
         'delete_terms' => 'manage_pi_technologies',
-        'assign_terms' => 'manage_pi_technologies'
+        'assign_terms' => 'assign_pi_technologies'
       )
     ));
 
@@ -152,7 +148,7 @@ class PI_Custom_Post_Type {
         'manage_terms' => 'manage_pi_teams',
         'edit_terms'   => 'manage_pi_teams',
         'delete_terms' => 'manage_pi_teams',
-        'assign_terms' => 'manage_pi_teams'
+        'assign_terms' => 'assign_pi_teams'
       )
     ));
 
@@ -167,7 +163,7 @@ class PI_Custom_Post_Type {
         'manage_terms' => 'manage_pi_os',
         'edit_terms'   => 'manage_pi_os',
         'delete_terms' => 'manage_pi_os',
-        'assign_terms' => 'manage_pi_os'
+        'assign_terms' => 'assign_pi_os'
       )
     ));
   }
