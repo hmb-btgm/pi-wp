@@ -25,7 +25,7 @@ class PI_Custom_Post_Type {
       'new_item'            => __( 'New Project', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Project', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Project', PI_TEXT_DOMAIN ),
-      'all_items'           => __( 'View Project Inventory', PI_TEXT_DOMAIN ),
+      'all_items'           => __( 'All Projects', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Project', PI_TEXT_DOMAIN ),
       'parent_item_colon'   => __( 'Parent', PI_TEXT_DOMAIN ),
       'not_found'           => __( 'Project not found.', PI_TEXT_DOMAIN ),
@@ -50,7 +50,7 @@ class PI_Custom_Post_Type {
       'singular_name'       => __( 'Team or Team Member', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Team or Team Member', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Teams', PI_TEXT_DOMAIN ),
-      'parent_item'         => __( 'Which Team of Member?' ),
+      'parent_item'         => __( 'Affiliated Team ?' ),
       'edit_item'           => __( 'Edit Team or Team Member', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Team or Team Member', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Team or Team Member', PI_TEXT_DOMAIN ),
@@ -107,8 +107,9 @@ class PI_Custom_Post_Type {
 
     // register project's technologies
     register_taxonomy( 'pi_technologies', 'pi', array(
+      'position'   => 'side',
       'labels'              => $technologies_labels,
-      'hierarchical'        => false,
+      'hierarchical'        => true,
       'query_var'           => true,
       'rewrite'             => false,
       'show_in_rest'        => true,
