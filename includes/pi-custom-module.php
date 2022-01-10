@@ -25,7 +25,7 @@ class PI_Custom_Post_Type {
       'new_item'            => __( 'New Project', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Project', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Project', PI_TEXT_DOMAIN ),
-      'all_items'           => __( 'All Projects', PI_TEXT_DOMAIN ),
+      'all_items'           => __( 'View Project Inventory', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Project', PI_TEXT_DOMAIN ),
       'parent_item_colon'   => __( 'Parent', PI_TEXT_DOMAIN ),
       'not_found'           => __( 'Project not found.', PI_TEXT_DOMAIN ),
@@ -38,6 +38,7 @@ class PI_Custom_Post_Type {
       'search_items'        => __( 'Search Technology', PI_TEXT_DOMAIN ),
       'popular_items'       => __( 'Popular Technologies', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Technologies', PI_TEXT_DOMAIN ),
+      'parent_item'         => __( 'Parent Technology ?', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Technology', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Technology', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Technology', PI_TEXT_DOMAIN ),
@@ -50,7 +51,7 @@ class PI_Custom_Post_Type {
       'singular_name'       => __( 'Team or Team Member', PI_TEXT_DOMAIN ),
       'search_items'        => __( 'Search Team or Team Member', PI_TEXT_DOMAIN ),
       'all_items'           => __( 'All Teams', PI_TEXT_DOMAIN ),
-      'parent_item'         => __( 'Affiliated Team ?' ),
+      'parent_item'         => __( 'Parent Team ?', PI_TEXT_DOMAIN ),
       'edit_item'           => __( 'Edit Team or Team Member', PI_TEXT_DOMAIN ),
       'view_item'           => __( 'View Team or Team Member', PI_TEXT_DOMAIN ),
       'update_item'         => __( 'Update Team or Team Member', PI_TEXT_DOMAIN ),
@@ -58,6 +59,22 @@ class PI_Custom_Post_Type {
       'new_item_name'       => __( 'Add Team or Team Member', PI_TEXT_DOMAIN ),
       'not_found'           => __( 'Teams or Team Member Not Found', PI_TEXT_DOMAIN ),
       'no_terms'            => __( 'No Teams or Team Member', PI_TEXT_DOMAIN ),
+      'filter_by_item'      => __( 'Filter', PI_TEXT_DOMAIN )
+    );
+
+    $os_labels = array(
+      'name'                => __( 'Operating Systems', PI_TEXT_DOMAIN ),
+      'singular_name'       => __( 'Operating System', PI_TEXT_DOMAIN ),
+      'search_items'        => __( 'Search OS', PI_TEXT_DOMAIN ),
+      'all_items'           => __( 'All Os', PI_TEXT_DOMAIN ),
+      'parent_item'         => __( 'Parent OS ?', PI_TEXT_DOMAIN ),
+      'edit_item'           => __( 'Edit Os', PI_TEXT_DOMAIN ),
+      'view_item'           => __( 'View Os', PI_TEXT_DOMAIN ),
+      'update_item'         => __( 'Update Os', PI_TEXT_DOMAIN ),
+      'add_new_item'        => __( 'Add New Os', PI_TEXT_DOMAIN ),
+      'new_item_name'       => __( 'Add Os', PI_TEXT_DOMAIN ),
+      'not_found'           => __( 'Os Not Found', PI_TEXT_DOMAIN ),
+      'no_terms'            => __( 'No OS', PI_TEXT_DOMAIN ),
       'filter_by_item'      => __( 'Filter', PI_TEXT_DOMAIN )
     );
 
@@ -95,8 +112,8 @@ class PI_Custom_Post_Type {
       'query_var'     => true,
       'rewrite'       => true,
       'show_in_rest'  => true,
-      'label'         => __( 'Project Categories', PI_TEXT_DOMAIN ),
-      'singular_name' => __( 'Project Category', PI_TEXT_DOMAIN ),
+      'label'         => __( 'Categories', PI_TEXT_DOMAIN ),
+      'singular_name' => __( 'Category', PI_TEXT_DOMAIN ),
       'capabilities'  => array(
         'manage_terms' => 'manage_pi_categories',
         'edit_terms'   => 'manage_pi_categories',
@@ -107,9 +124,8 @@ class PI_Custom_Post_Type {
 
     // register project's technologies
     register_taxonomy( 'pi_technologies', 'pi', array(
-      'position'   => 'side',
       'labels'              => $technologies_labels,
-      'hierarchical'        => true,
+      'hierarchical'        => false,
       'query_var'           => true,
       'rewrite'             => false,
       'show_in_rest'        => true,
@@ -117,7 +133,7 @@ class PI_Custom_Post_Type {
         'manage_terms' => 'manage_pi_technologies',
         'edit_terms'   => 'manage_pi_technologies',
         'delete_terms' => 'manage_pi_technologies',
-        'assign_terms' => 'manage_pi_technologies'
+        'assign_terms' => 'assign_pi_technologies'
       )
     ));
 
@@ -132,7 +148,22 @@ class PI_Custom_Post_Type {
         'manage_terms' => 'manage_pi_teams',
         'edit_terms'   => 'manage_pi_teams',
         'delete_terms' => 'manage_pi_teams',
-        'assign_terms' => 'manage_pi_teams'
+        'assign_terms' => 'assign_pi_teams'
+      )
+    ));
+
+    // register operating system
+    register_taxonomy( 'pi_os', 'pi', array(
+      'labels'              => $os_labels,
+      'hierarchical'        => true,
+      'query_var'           => true,
+      'rewrite'             => true,
+      'show_in_rest'        => true,
+      'capabilities'        => array(
+        'manage_terms' => 'manage_pi_os',
+        'edit_terms'   => 'manage_pi_os',
+        'delete_terms' => 'manage_pi_os',
+        'assign_terms' => 'assign_pi_os'
       )
     ));
   }
@@ -154,7 +185,11 @@ class PI_Custom_Post_Type {
       'manage_pi_categories',
       'assign_pi_categories',
       'manage_pi_technologies',
-      'manage_pi_teams'
+      'assign_pi_technologies',
+      'manage_pi_teams',
+      'assign_pi_teams',
+      'manage_pi_os',
+      'assign_pi_os'
     );
 
     //
