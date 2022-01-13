@@ -125,7 +125,7 @@ class PI_Custom_Post_Type {
     // register project's technologies
     register_taxonomy( 'pi_technologies', 'pi', array(
       'labels'              => $technologies_labels,
-      'hierarchical'        => true,
+      'hierarchical'        => false,
       'query_var'           => true,
       'rewrite'             => false,
       'show_in_rest'        => true,

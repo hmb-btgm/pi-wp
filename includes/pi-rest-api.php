@@ -48,7 +48,6 @@ add_action( 'rest_api_init', function () {
     'get_callback' => 'get_pi_categories',
     'schema' => null
   ));
-
   //pi operating systems
   register_rest_field( 'pi', 'os', array(
     'get_callback' => 'get_pi_os',
@@ -106,5 +105,3 @@ add_action( 'rest_api_init', function () {
   
 });
 add_filter( 'rest_pi_query', 'add_filter_for_pi', 10, 2 );
-
-

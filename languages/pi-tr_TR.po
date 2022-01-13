@@ -777,5 +777,3 @@ msgstr "Projenin Devops Bilgileri"
 #: includes/pi-metaboxes.php:194
 msgid "Pre-Prod Information"
 msgstr "Pre-Prod Bilgileri"
-
-
