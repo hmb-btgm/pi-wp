@@ -1,13 +1,13 @@
-# Copyright (C) 2012 Co-Authors Plus
-# This file is distributed under the same license as the Co-Authors Plus package.
+# Copyright (C) 2022 pi-wp
+# This file is distributed under the same license as the pi-wp package.
 msgid ""
 msgstr ""
-"Project-Id-Version: maliyeportal\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/co-authors-plus\n"
+"Project-Id-Version: pi\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-05 08:42+0300\n"
-"PO-Revision-Date: 2022-01-05 08:54+0300\n"
-"Last-Translator: Jurko Chervony <info@skinik.name>\n"
-"Language-Team: Safa <safa.haliloglu@hmb.gov.tr>\n"
+"PO-Revision-Date: 2022-01-10 11:10+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,842 +168,540 @@ msgstr "Installed But Not Activated"
 
 #: includes/class-tgm-plugin-activation.php:2414
 msgid "Active"
-msgstr ""
+msgstr "Active"
 
 #: includes/class-tgm-plugin-activation.php:2420
 msgid "Required Update not Available"
-msgstr ""
+msgstr "Required Update not Available"
 
 #: includes/class-tgm-plugin-activation.php:2423
 msgid "Requires Update"
-msgstr ""
+msgstr "Requires Update"
 
 #: includes/class-tgm-plugin-activation.php:2426
 msgid "Update recommended"
-msgstr ""
+msgstr "Update recommended"
 
 #: includes/class-tgm-plugin-activation.php:2435
 #, php-format
 msgid "%1$s, %2$s"
-msgstr ""
+msgstr "%1$s, %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2485
 #, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "To Install <span class=\"count\">(%s)</span>"
 
 #: includes/class-tgm-plugin-activation.php:2489
 #, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "Update Available <span class=\"count\">(%s)</span>"
 
 #: includes/class-tgm-plugin-activation.php:2493
 #, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "To Activate <span class=\"count\">(%s)</span>"
 
 #: includes/class-tgm-plugin-activation.php:2575
 msgid "unknown"
-msgstr ""
+msgstr "unknown"
 
 #: includes/class-tgm-plugin-activation.php:2583
 msgid "Installed version:"
-msgstr ""
+msgstr "Installed version:"
 
 #: includes/class-tgm-plugin-activation.php:2591
 msgid "Minimum required version:"
-msgstr ""
+msgstr "Minimum required version:"
 
 #: includes/class-tgm-plugin-activation.php:2603
 msgid "Available version:"
-msgstr ""
+msgstr "Available version:"
 
 #: includes/class-tgm-plugin-activation.php:2626
 msgid "No plugins to install, update or activate."
-msgstr ""
+msgstr "No plugins to install, update or activate."
 
 #: includes/class-tgm-plugin-activation.php:2640
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: includes/class-tgm-plugin-activation.php:2641
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: includes/class-tgm-plugin-activation.php:2642
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: includes/class-tgm-plugin-activation.php:2646
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: includes/class-tgm-plugin-activation.php:2647
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: includes/class-tgm-plugin-activation.php:2696
 #, php-format
 msgid "Install %2$s"
-msgstr ""
+msgstr "Install %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2701
 #, php-format
 msgid "Update %2$s"
-msgstr ""
+msgstr "Update %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2707
 #, php-format
 msgid "Activate %2$s"
-msgstr ""
+msgstr "Activate %2$s"
 
 #: includes/class-tgm-plugin-activation.php:2777
 msgid "Upgrade message from the plugin author:"
-msgstr ""
+msgstr "Upgrade message from the plugin author:"
 
 #: includes/class-tgm-plugin-activation.php:2810
 msgid "Install"
-msgstr ""
+msgstr "Install"
 
 #: includes/class-tgm-plugin-activation.php:2816
 msgid "Update"
-msgstr ""
+msgstr "Update"
 
 #: includes/class-tgm-plugin-activation.php:2819
 msgid "Activate"
-msgstr ""
+msgstr "Activate"
 
 #: includes/class-tgm-plugin-activation.php:2850
 msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
+msgstr "No plugins were selected to be installed. No action taken."
 
 #: includes/class-tgm-plugin-activation.php:2852
 msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
+msgstr "No plugins were selected to be updated. No action taken."
 
 #: includes/class-tgm-plugin-activation.php:2893
 msgid "No plugins are available to be installed at this time."
-msgstr ""
+msgstr "No plugins are available to be installed at this time."
 
 #: includes/class-tgm-plugin-activation.php:2895
 msgid "No plugins are available to be updated at this time."
-msgstr ""
+msgstr "No plugins are available to be updated at this time."
 
 #: includes/class-tgm-plugin-activation.php:3001
 msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
+msgstr "No plugins were selected to be activated. No action taken."
 
 #: includes/class-tgm-plugin-activation.php:3027
 msgid "No plugins are available to be activated at this time."
-msgstr ""
+msgstr "No plugins are available to be activated at this time."
 
 #: includes/class-tgm-plugin-activation.php:3251
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "Plugin activation failed."
 
 #: includes/class-tgm-plugin-activation.php:3591
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
 
 #: includes/class-tgm-plugin-activation.php:3594
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
 
 #: includes/class-tgm-plugin-activation.php:3596
 #, php-format
 msgid "The installation of %1$s failed."
-msgstr ""
+msgstr "The installation of %1$s failed."
 
 #: includes/class-tgm-plugin-activation.php:3600
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
 
 #: includes/class-tgm-plugin-activation.php:3602
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%1$s installed and activated successfully."
 
 #: includes/class-tgm-plugin-activation.php:3602
 #: includes/class-tgm-plugin-activation.php:3610
 msgid "Show Details"
-msgstr ""
+msgstr "Show Details"
 
 #: includes/class-tgm-plugin-activation.php:3602
 #: includes/class-tgm-plugin-activation.php:3610
 msgid "Hide Details"
-msgstr ""
+msgstr "Hide Details"
 
 #: includes/class-tgm-plugin-activation.php:3603
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "All installations and activations have been completed."
 
 #: includes/class-tgm-plugin-activation.php:3605
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 
 #: includes/class-tgm-plugin-activation.php:3608
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
 
 #: includes/class-tgm-plugin-activation.php:3610
 #, php-format
 msgid "%1$s installed successfully."
-msgstr ""
+msgstr "%1$s installed successfully."
 
 #: includes/class-tgm-plugin-activation.php:3611
 msgid "All installations have been completed."
-msgstr ""
+msgstr "All installations have been completed."
 
 #: includes/class-tgm-plugin-activation.php:3613
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
 
 #: includes/pi-custom-module.php:19 includes/pi-custom-module.php:21
 #: includes/pi-custom-module.php:22
 msgid "Project Inventory"
-msgstr ""
+msgstr "Project Inventory"
 
 #: includes/pi-custom-module.php:20 includes/pi-metaboxes.php:26
 #: includes/pi-metaboxes.php:114 includes/pi-metaboxes.php:147
 msgid "Project"
-msgstr ""
+msgstr "Project"
 
 #: includes/pi-custom-module.php:23 includes/pi-custom-module.php:24
 msgid "Add Project"
-msgstr ""
+msgstr "Add Project"
 
 #: includes/pi-custom-module.php:25
 msgid "New Project"
-msgstr ""
+msgstr "New Project"
 
 #: includes/pi-custom-module.php:26
 msgid "Edit Project"
-msgstr ""
+msgstr "Edit Project"
 
 #: includes/pi-custom-module.php:27
 msgid "View Project"
-msgstr ""
+msgstr "View Project"
 
 #: includes/pi-custom-module.php:28
 msgid "All Projects"
-msgstr ""
+msgstr "All Projects"
 
 #: includes/pi-custom-module.php:29
 msgid "Search Project"
-msgstr ""
+msgstr "Search Project"
 
 #: includes/pi-custom-module.php:30
 msgid "Parent"
-msgstr ""
+msgstr "Parent"
 
 #: includes/pi-custom-module.php:31
 msgid "Project not found."
-msgstr ""
+msgstr "Project not found."
 
 #: includes/pi-custom-module.php:32
 msgid "Project not found in trash."
-msgstr ""
+msgstr "Project not found in trash."
 
 #: includes/pi-custom-module.php:36
 msgid "Technologies"
-msgstr ""
+msgstr "Technologies"
 
 #: includes/pi-custom-module.php:37
 msgid "Technology"
-msgstr ""
+msgstr "Technology"
 
 #: includes/pi-custom-module.php:38
 msgid "Search Technology"
-msgstr ""
+msgstr "Search Technology"
 
 #: includes/pi-custom-module.php:39
 msgid "Popular Technologies"
-msgstr ""
+msgstr "Popular Technologies"
 
 #: includes/pi-custom-module.php:40
 msgid "All Technologies"
-msgstr ""
+msgstr "All Technologies"
 
 #: includes/pi-custom-module.php:41
 msgid "Edit Technology"
-msgstr ""
+msgstr "Edit Technology"
 
 #: includes/pi-custom-module.php:42
 msgid "View Technology"
-msgstr ""
+msgstr "View Technology"
 
 #: includes/pi-custom-module.php:43
 msgid "Update Technology"
-msgstr ""
+msgstr "Update Technology"
 
 #: includes/pi-custom-module.php:44
 msgid "Add New Technology"
-msgstr ""
+msgstr "Add New Technology"
 
 #: includes/pi-custom-module.php:45
 msgid "Add Technology Name"
-msgstr ""
+msgstr "Add Technology Name"
 
 #: includes/pi-custom-module.php:49
 msgid "Teams"
-msgstr ""
+msgstr "Teams"
 
 #: includes/pi-custom-module.php:50
 msgid "Team or Team Member"
-msgstr ""
+msgstr "Team or Team Member"
 
 #: includes/pi-custom-module.php:51
 msgid "Search Team or Team Member"
-msgstr ""
+msgstr "Search Team or Team Member"
 
 #: includes/pi-custom-module.php:52
 msgid "All Teams"
-msgstr ""
+msgstr "All Teams"
 
 #: includes/pi-custom-module.php:53
 msgid "Affiliated Team ?"
-msgstr ""
+msgstr "Affiliated Team ?"
 
 #: includes/pi-custom-module.php:54
 msgid "Edit Team or Team Member"
-msgstr ""
+msgstr "Edit Team or Team Member"
 
 #: includes/pi-custom-module.php:55
 msgid "View Team or Team Member"
-msgstr ""
+msgstr "View Team or Team Member"
 
 #: includes/pi-custom-module.php:56
 msgid "Update Team or Team Member"
-msgstr ""
+msgstr "Update Team or Team Member"
 
 #: includes/pi-custom-module.php:57
 msgid "Add New Team or Team Member"
-msgstr ""
+msgstr "Add New Team or Team Member"
 
 #: includes/pi-custom-module.php:58
 msgid "Add Team or Team Member"
-msgstr ""
+msgstr "Add Team or Team Member"
 
 #: includes/pi-custom-module.php:59
 msgid "Teams or Team Member Not Found"
-msgstr ""
+msgstr "Teams or Team Member Not Found"
 
 #: includes/pi-custom-module.php:60
 msgid "No Teams or Team Member"
-msgstr ""
+msgstr "No Teams or Team Member"
 
 #: includes/pi-custom-module.php:61
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: includes/pi-custom-module.php:98
 msgid "Project Categories"
-msgstr ""
+msgstr "Project Categories"
 
 #: includes/pi-custom-module.php:99
 msgid "Project Category"
-msgstr ""
+msgstr "Project Category"
 
 #: includes/pi-metaboxes.php:12
 msgid "Project Details"
-msgstr ""
+msgstr "Project Details"
 
 #: includes/pi-metaboxes.php:18
 msgid "General Information"
-msgstr ""
+msgstr "General Information"
 
 #: includes/pi-metaboxes.php:20
 msgid "Project General Information"
-msgstr ""
+msgstr "Project General Information"
 
 #: includes/pi-metaboxes.php:28
 msgid "Is it Suitable for New Infrastructure"
-msgstr ""
+msgstr "Is it Suitable for New Infrastructure"
 
 #: includes/pi-metaboxes.php:29
 msgid "Have a Login"
-msgstr ""
+msgstr "Have a Login"
 
 #: includes/pi-metaboxes.php:30
 msgid "Have 2FA"
-msgstr ""
+msgstr "Have 2FA"
 
 #: includes/pi-metaboxes.php:36
 msgid "Criticality Level"
-msgstr ""
+msgstr "Criticality Level"
 
 #: includes/pi-metaboxes.php:38
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: includes/pi-metaboxes.php:39
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: includes/pi-metaboxes.php:40
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: includes/pi-metaboxes.php:48
 msgid "Database Information"
-msgstr ""
+msgstr "Database Information"
 
 #: includes/pi-metaboxes.php:49
 msgid "Project Database Information"
-msgstr ""
+msgstr "Project Database Information"
 
 #: includes/pi-metaboxes.php:57
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP Addresses"
 
 #: includes/pi-metaboxes.php:58
 msgid "Enter the database IP addresses"
-msgstr ""
+msgstr "Enter the database IP addresses"
 
 #: includes/pi-metaboxes.php:61
 msgid "Test IP"
-msgstr ""
+msgstr "Test IP"
 
 #: includes/pi-metaboxes.php:62
 msgid "Prod IP"
-msgstr ""
+msgstr "Prod IP"
 
 #: includes/pi-metaboxes.php:63
 msgid "Dev IP"
-msgstr ""
+msgstr "Dev IP"
 
 #: includes/pi-metaboxes.php:67
 msgid "DB Type"
-msgstr ""
+msgstr "DB Type"
 
 #: includes/pi-metaboxes.php:72
 msgid "DB Version"
-msgstr ""
+msgstr "DB Version"
 
 #: includes/pi-metaboxes.php:77
 msgid "DB Principals"
-msgstr ""
+msgstr "DB Principals"
 
 #: includes/pi-metaboxes.php:79 includes/pi-metaboxes.php:126
 #: includes/pi-metaboxes.php:132
 msgid "Specify people by separating them with commas."
-msgstr ""
+msgstr "Specify people by separating them with commas."
 
 #: includes/pi-metaboxes.php:85
 msgid "Is the database backed up?"
-msgstr ""
+msgstr "Is the database backed up?"
 
 #: includes/pi-metaboxes.php:92
 msgid "DB backup frequency?"
-msgstr ""
+msgstr "DB backup frequency?"
 
 #: includes/pi-metaboxes.php:95
 msgid "1 month"
-msgstr ""
+msgstr "1 month"
 
 #: includes/pi-metaboxes.php:96
 msgid "2 month"
-msgstr ""
+msgstr "2 month"
 
 #: includes/pi-metaboxes.php:97
 msgid "3 month"
-msgstr ""
+msgstr "3 month"
 
 #: includes/pi-metaboxes.php:98
 msgid "Not backed up"
-msgstr ""
+msgstr "Not backed up"
 
 #: includes/pi-metaboxes.php:105
 msgid "Network Information"
-msgstr ""
+msgstr "Network Information"
 
 #: includes/pi-metaboxes.php:106
 msgid "Project Network Information"
-msgstr ""
+msgstr "Project Network Information"
 
 #: includes/pi-metaboxes.php:116
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: includes/pi-metaboxes.php:117
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: includes/pi-metaboxes.php:118
 msgid "Is the internet on"
-msgstr ""
+msgstr "Is the internet on"
 
 #: includes/pi-metaboxes.php:119
 msgid "WAF"
-msgstr ""
+msgstr "WAF"
 
 #: includes/pi-metaboxes.php:120
 msgid "DB behind the firewall"
-msgstr ""
+msgstr "DB behind the firewall"
 
 #: includes/pi-metaboxes.php:124
 msgid "Internal IP addresses"
-msgstr ""
+msgstr "Internal IP addresses"
 
 #: includes/pi-metaboxes.php:130
 msgid "Subnets"
-msgstr ""
+msgstr "Subnets"
 
 #: includes/pi-metaboxes.php:138
 msgid "System Information"
-msgstr ""
+msgstr "System Information"
 
 #: includes/pi-metaboxes.php:139
 msgid "Project System Information"
-msgstr ""
+msgstr "Project System Information"
 
 #: includes/pi-metaboxes.php:149
 msgid "Have Log"
-msgstr ""
+msgstr "Have Log"
 
 #: includes/pi-metaboxes.php:150
 msgid "Is it DMZ"
-msgstr ""
+msgstr "Is it DMZ"
 
 #: includes/pi-metaboxes.php:151
 msgid "Does the server have internet?"
-msgstr ""
+msgstr "Does the server have internet?"
 
 #: includes/pi-metaboxes.php:152
 msgid "Is it up to date"
-msgstr ""
+msgstr "Is it up to date"
 
 #: includes/pi-metaboxes.php:156
 msgid "Log Type"
-msgstr ""
+msgstr "Log Type"
 
 #: includes/pi-metaboxes.php:161
 msgid "Os Version"
-msgstr ""
+msgstr "Os Version"
 
 #: includes/pi-metaboxes.php:169
 msgid "Devops Information"
-msgstr ""
+msgstr "Devops Information"
 
 #: includes/pi-metaboxes.php:170
 msgid "Project Devops Information"
-msgstr ""
+msgstr "Project Devops Information"
 
 #: includes/pi-metaboxes.php:176
 msgid "Pre-Prod Information"
-msgstr ""
+msgstr "Pre-Prod Information"
 
-#~ msgid "SSS Yönetimi"
-#~ msgstr "FAQ Management"
-
-#~ msgid "SSS"
-#~ msgstr "FAQ"
-
-#~ msgid "Yeni SSS"
-#~ msgstr "New FAQ"
-
-#~ msgid "Yeni SSS Ekle"
-#~ msgstr "Add New FAQ"
-
-#~ msgid "SSS Düzenle"
-#~ msgstr "Edit FAQ"
-
-#~ msgid "SSS Görüntüle"
-#~ msgstr "View FAQ"
-
-#~ msgid "Tüm SSS"
-#~ msgstr "All FAQ"
-
-#~ msgid "SSS Ara"
-#~ msgstr "Find FAQ"
-
-#~ msgid "Üst"
-#~ msgstr "Up"
-
-#~ msgid "SSS bulunamadı."
-#~ msgstr "No FAQ found."
-
-#~ msgid "Çöp kutusunda SSS bulunamadı."
-#~ msgstr "No FAQ found in trash."
-
-#~ msgid "İçerikleri Süz"
-#~ msgstr "Filter"
-
-#~ msgid "Verinin Adı"
-#~ msgstr "Data Name"
-
-#~ msgid "Son Güncelleme"
-#~ msgstr "Last Update"
-
-#~ msgid "Zaman Serisi"
-#~ msgstr "Time Series"
-
-#~ msgid "Metaveri"
-#~ msgstr "Metadata"
-
-#~ msgid "Yayınlama Takvimi"
-#~ msgstr "Calendar of Release"
-
-#~ msgid "Mevzuat"
-#~ msgstr "Legislation"
-
-#~ msgid "Tarih"
-#~ msgstr "Date"
-
-#~ msgid "Rapor"
-#~ msgstr "Report"
-
-#~ msgid "Periodu"
-#~ msgstr "Period"
-
-#~ msgid "Bilgi"
-#~ msgstr "Info"
-
-#~ msgid "Mevzuat Yönetimi"
-#~ msgstr "Legislation Management"
-
-#~ msgid "Yeni Mevzuat"
-#~ msgstr "New Legislation"
-
-#~ msgid "Yeni Mevzuat Ekle"
-#~ msgstr "Add New Legislation"
-
-#~ msgid "Mevzuatı Düzenle"
-#~ msgstr "Edit Legislation"
-
-#~ msgid "Mevzuatı Görüntüle"
-#~ msgstr "View Legislation"
-
-#~ msgid "Tüm Mevzuatlar"
-#~ msgstr "All Legislations"
-
-#~ msgid "Mevzuatlarda Ara"
-#~ msgstr "Find Legislation"
-
-#~ msgid "Mevzuat bulunamadı."
-#~ msgstr "No legislation found."
-
-#~ msgid "Çöp kutusunda mevzuat bulunamadı."
-#~ msgstr "No legislation found in trash."
-
-#~ msgid "Sunumlar"
-#~ msgstr "Presentations"
-
-#~ msgid "Sunum"
-#~ msgstr "Presentation"
-
-#~ msgid "Yeni Sunum"
-#~ msgstr "New Presentation"
-
-#~ msgid "Yeni Sunum Ekle"
-#~ msgstr "Add New Presentation"
-
-#~ msgid "Sunumu Düzenle"
-#~ msgstr "Edit Presentation"
-
-#~ msgid "Sunumu Görüntüle"
-#~ msgstr "View Presentation"
-
-#~ msgid "Tüm Sunumlar"
-#~ msgstr "All Presentations"
-
-#~ msgid "Sunumlarda Ara"
-#~ msgstr "Find Presentation"
-
-#~ msgid "Sunum bulunamadı."
-#~ msgstr "No presentation found."
-
-#~ msgid "Çöp kutusunda sunum bulunamadı."
-#~ msgstr "No presentation found in trash."
-
-#~ msgid "Rapor Yönetimi"
-#~ msgstr "Report Management"
-
-#~ msgid "Yeni Rapor"
-#~ msgstr "New Report"
-
-#~ msgid "Yeni Rapor Ekle"
-#~ msgstr "Add New Report"
-
-#~ msgid "Raporu Düzenle"
-#~ msgstr "Edit Report"
-
-#~ msgid "Raporu Görüntüle"
-#~ msgstr "View Report"
-
-#~ msgid "Tüm Raporlar"
-#~ msgstr "All Reports"
-
-#~ msgid "Raporlarda Ara"
-#~ msgstr "Find Reports"
-
-#~ msgid "Rapor bulunamadı."
-#~ msgstr "Report not found."
-
-#~ msgid "Çöp kutusunda rapor bulunamadı."
-#~ msgstr "Report not found in trash."
-
-#~ msgid "İstatistik Yönetimi"
-#~ msgstr "Statistics Management"
-
-#~ msgid "İstatistik"
-#~ msgstr "Statistics"
-
-#~ msgid "Yeni İstatistik"
-#~ msgstr "New Statistics"
-
-#~ msgid "Yeni İstatistik Ekle"
-#~ msgstr "Add New Statistics"
-
-#~ msgid "İstatistiği Düzenle"
-#~ msgstr "Edit Statistics"
-
-#~ msgid "İstatistiği Görüntüle"
-#~ msgstr "View Statistics"
-
-#~ msgid "Tüm İstatistikler"
-#~ msgstr "All Statistics"
-
-#~ msgid "İstatistiklerde Ara"
-#~ msgstr "Find Statistics"
-
-#~ msgid "İstatistik bulunamadı."
-#~ msgstr "No statistics found."
-
-#~ msgid "Çöp kutusunda İstatistik bulunamadı."
-#~ msgstr "No statistics found in trash."
-
-#~ msgid "Duyuru Ek Ayarları"
-#~ msgstr "Announcement Extra Settings"
-
-#~ msgid "Yayından Kaldırma Tarihi"
-#~ msgstr "Release End Date"
-
-#~ msgid "Manşette Başlık Göster"
-#~ msgstr "Show Title on Headline News"
-
-#~ msgid "Manşete Özel Bağlantı"
-#~ msgstr "External URL for Headline News"
-
-#~ msgid ""
-#~ "Manşetteki fotoğrafa farklı bir bağlantı verilmek istenildiğinde "
-#~ "kullanılır. Buraya bağlantı girdiğinizde kullanıcılar manşetten duyuru "
-#~ "detayına erişemezler"
-#~ msgstr ""
-#~ "It is used when you want to give a different connection to the photo in "
-#~ "the cuff. Users cannot access the announcement details when you enter a "
-#~ "link here"
-
-#~ msgid "Sayfa Ek Ayarları"
-#~ msgstr "Page Extra Settings"
-
-#~ msgid "Sayfa Ayarları"
-#~ msgstr "Page Settings"
-
-#~ msgid "Kenar Çubuğu"
-#~ msgstr "Sidebar"
-
-#~ msgid "Sunum Ek Ayarları"
-#~ msgstr "Presentation Extra Settings"
-
-#~ msgid "Sunum Dosyası"
-#~ msgstr "Presentation File"
-
-#~ msgid "Kişi"
-#~ msgstr "Who is"
-
-#~ msgid "Mevzuat Ek Ayarları"
-#~ msgstr "Legislation Extra Settings"
-
-#~ msgid "mevzuat.gov.tr üzerindeki bağlantılar da kullanılabilir"
-#~ msgstr "you can use mevzuat.gov.tr URL on this field"
-
-#~ msgid "Yayınlanma Tarihi"
-#~ msgstr "Release Date"
-
-#~ msgid "Rapor Ek Ayarları"
-#~ msgstr "Report Extra Settings"
-
-#~ msgid "Rapor Dosyası"
-#~ msgstr "Report File"
-
-#~ msgid "Yayınlama Periodu"
-#~ msgstr "Period"
-
-#~ msgid "Dosya"
-#~ msgstr "File"
-
-#~ msgid "Yayın Tarihi"
-#~ msgstr "Release Date"
-
-#~ msgid "Site Ayarları"
-#~ msgstr "Site Settings"
-
-#~ msgid "Logo"
-#~ msgstr "Logo"
-
-#~ msgid "Duyuru Kategorileri"
-#~ msgstr "Announcement Categories"
-
-#~ msgid ""
-#~ "Yalnızca görünmesini istediğiniz kategori ID'lerini virgül ile ayırarak "
-#~ "girebilirsiniz."
-#~ msgstr ""
-#~ "You can enter only the category IDs that you want to appear by separating "
-#~ "them with commas."
-
-#~ msgid "Site Altı Açıklaması"
-#~ msgstr "Footer Text"
-
-#~ msgid "Özel Kenar Çubuğu"
-#~ msgstr "Special Sidebar"
-
-#~ msgid "Ana Menü"
-#~ msgstr "Main Menu"
-
-#~ msgid "Item #"
-#~ msgstr "Item #"
-
-#~ msgid "New"
-#~ msgstr "New"
-
-#~ msgid "Add New"
-#~ msgstr "Add New"
-
-#~ msgid "Remove"
-#~ msgstr "Remove"
-
-#~ msgid "Choose"
-#~ msgstr "Choose"
-
-#~ msgid "Kenar Çubuğu Olmasın"
-#~ msgstr "Don't use Sidebar"
-
-#~ msgid "Settings Saved."
-#~ msgstr "Settings Saved."
-
-#~ msgid "Theme Options"
-#~ msgstr "Theme Options"
-
-#~ msgid "Authors"
-#~ msgstr "Yazar"
-
-#~ msgid "Posts"
-#~ msgstr "Gönderiler"
-
-#~ msgid "Edit"
-#~ msgstr "Düzenle"
-
-#~ msgid "Mine"
-#~ msgstr "Senin Kayıtların"
-
-#~ msgid "Comment: "
-#~ msgstr "Yorumlar:"

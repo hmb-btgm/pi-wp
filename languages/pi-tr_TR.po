@@ -1,13 +1,13 @@
-# Copyright (C) 2012 Co-Authors Plus
-# This file is distributed under the same license as the Co-Authors Plus package.
+# Copyright (C) 2022 pi-wp
+# This file is distributed under the same license as the pi-wp package.
 msgid ""
 msgstr ""
-"Project-Id-Version: maliyeportal\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/co-authors-plus\n"
-"POT-Creation-Date: 2022-01-05 11:22+0300\n"
-"PO-Revision-Date: 2022-01-10 09:05+0300\n"
-"Last-Translator: Jurko Chervony <info@skinik.name>\n"
-"Language-Team: Safa <safa.haliloglu@hmb.gov.tr>\n"
+"Project-Id-Version: pi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 11:11+0300\n"
+"PO-Revision-Date: 2022-01-10 11:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,7 @@ msgstr "Eklenti başarılı şekilde aktif edildi."
 #: includes/class-tgm-plugin-activation.php:395
 #: includes/class-tgm-plugin-activation.php:3045
 msgid "The following plugin was activated successfully:"
-msgstr "Takip edilen ekleti başarılı şekilde aktif edildi."
+msgstr "Takip edilen ekleti başarılı şekilde aktif edildi:"
 
 #: includes/class-tgm-plugin-activation.php:397
 #, php-format
@@ -331,7 +331,7 @@ msgstr ""
 #: includes/class-tgm-plugin-activation.php:3602
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr "%1$s başarılı şekilde yüklendi ve aktif edildi"
+msgstr "%1$s başarılı şekilde yüklendi ve aktif edildi."
 
 #: includes/class-tgm-plugin-activation.php:3602
 #: includes/class-tgm-plugin-activation.php:3610
@@ -380,7 +380,7 @@ msgid "Project Inventory"
 msgstr "Proje Envanteri"
 
 #: includes/pi-custom-module.php:20 includes/pi-metaboxes.php:26
-#: includes/pi-metaboxes.php:114 includes/pi-metaboxes.php:147
+#: includes/pi-metaboxes.php:132 includes/pi-metaboxes.php:165
 msgid "Project"
 msgstr "Proje"
 
@@ -401,8 +401,8 @@ msgid "View Project"
 msgstr "Projeyi İncele"
 
 #: includes/pi-custom-module.php:28
-msgid "All Projects"
-msgstr "Tüm projeler"
+msgid "View Project Inventory"
+msgstr "Proje Envanteri İncele"
 
 #: includes/pi-custom-module.php:29
 msgid "Search Project"
@@ -442,7 +442,7 @@ msgstr "Bütün Teknolojiler"
 
 #: includes/pi-custom-module.php:41
 msgid "Parent Technology ?"
-msgstr "Bağlı olan Teknoloji"
+msgstr "Bağlı olan Teknoloji ?"
 
 #: includes/pi-custom-module.php:42
 msgid "Edit Technology"
@@ -482,7 +482,7 @@ msgstr "Bütün Takımlar"
 
 #: includes/pi-custom-module.php:54
 msgid "Parent Team ?"
-msgstr "Bağlı olan Takım"
+msgstr "Bağlı olan Takım ?"
 
 #: includes/pi-custom-module.php:55
 msgid "Edit Team or Team Member"
@@ -510,7 +510,7 @@ msgstr "Takımı veya Takım üyesi bulunamadı"
 
 #: includes/pi-custom-module.php:61
 msgid "No Teams or Team Member"
-msgstr "Takımı veya Takım üyesi yok "
+msgstr "Takımı veya Takım üyesi yok"
 
 #: includes/pi-custom-module.php:62 includes/pi-custom-module.php:78
 msgid "Filter"
@@ -534,7 +534,7 @@ msgstr "Bütün İşletim Sistemleri"
 
 #: includes/pi-custom-module.php:70
 msgid "Parent OS ?"
-msgstr "Bağlı olan İşletim Sistemi"
+msgstr "Bağlı olan İşletim Sistemi ?"
 
 #: includes/pi-custom-module.php:71
 msgid "Edit Os"
@@ -586,15 +586,15 @@ msgstr "Projenin Genel Bilgileri"
 
 #: includes/pi-metaboxes.php:28
 msgid "Is it Suitable for New Infrastructure"
-msgstr "Yeni Altyapıya uygun mu "
+msgstr "Yeni Altyapıya uygun mu"
 
 #: includes/pi-metaboxes.php:29
 msgid "Have a Login"
-msgstr "Giriş varmı ?"
+msgstr "Giriş varmı"
 
 #: includes/pi-metaboxes.php:30
 msgid "Have 2FA"
-msgstr "2FA varmı ?"
+msgstr "2FA varmı"
 
 #: includes/pi-metaboxes.php:36
 msgid "Criticality Level"
@@ -612,184 +612,170 @@ msgstr "2"
 msgid "3"
 msgstr "3"
 
-#: includes/pi-metaboxes.php:48
-msgid "Database Information"
-msgstr "Veritabanı Bilgileri"
+#: includes/pi-metaboxes.php:45
+msgid "Coordinatorship"
+msgstr "Koordinatörlük"
 
-#: includes/pi-metaboxes.php:49
-msgid "Project Database Information"
-msgstr "Projenin Veritabanı Bilgileri"
+#: includes/pi-metaboxes.php:47
+msgid "Indicate the Coordinatorship to which you are affiliated"
+msgstr "Proje Hangi koordinatörlüğe bağlı"
 
-#: includes/pi-metaboxes.php:57
-msgid "IP Addresses"
-msgstr "IP Adresleri"
+#: includes/pi-metaboxes.php:51
+msgid "People in the Project"
+msgstr "Proje içerisindeki kişiler"
 
-#: includes/pi-metaboxes.php:58
-msgid "Enter the database IP addresses"
-msgstr "Veritabanı IP adreslerini girin"
-
-#: includes/pi-metaboxes.php:61
-msgid "Test IP"
-msgstr "Test IP"
-
-#: includes/pi-metaboxes.php:62
-msgid "Prod IP"
-msgstr "Prod IP"
-
-#: includes/pi-metaboxes.php:63
-msgid "Dev IP"
-msgstr "Dev IP"
-
-#: includes/pi-metaboxes.php:67
-msgid "DB Type"
-msgstr "Veritabanı Türü"
-
-#: includes/pi-metaboxes.php:72
-msgid "DB Version"
-msgstr "Veritabanı Versiyonu"
-
-#: includes/pi-metaboxes.php:77
-msgid "DB Principals"
-msgstr "Veritabanı Sorumluluları"
-
-#: includes/pi-metaboxes.php:79 includes/pi-metaboxes.php:126
-#: includes/pi-metaboxes.php:132
+#: includes/pi-metaboxes.php:53 includes/pi-metaboxes.php:59
+#: includes/pi-metaboxes.php:97 includes/pi-metaboxes.php:144
+#: includes/pi-metaboxes.php:150
 msgid "Specify people by separating them with commas."
 msgstr "Kişileri virgül ile ayırarak yazabilirsiniz."
 
-#: includes/pi-metaboxes.php:85
-msgid "Is the database backed up?"
-msgstr "Veritabanı yedekleniyorm u"
+#: includes/pi-metaboxes.php:57
+msgid "Used technologies"
+msgstr "Kullanılan Teknolojiler"
 
-#: includes/pi-metaboxes.php:92
+#: includes/pi-metaboxes.php:66
+msgid "Database Information"
+msgstr "Veritabanı Bilgileri"
+
+#: includes/pi-metaboxes.php:67
+msgid "Project Database Information"
+msgstr "Projenin Veritabanı Bilgileri"
+
+#: includes/pi-metaboxes.php:75
+msgid "IP Addresses"
+msgstr "IP Adresleri"
+
+#: includes/pi-metaboxes.php:76
+msgid "Enter the database IP addresses"
+msgstr "Veritabanı IP adreslerini girin"
+
+#: includes/pi-metaboxes.php:79
+msgid "Test IP"
+msgstr "Test IP"
+
+#: includes/pi-metaboxes.php:80
+msgid "Prod IP"
+msgstr "Prod IP"
+
+#: includes/pi-metaboxes.php:81
+msgid "Dev IP"
+msgstr "Dev IP"
+
+#: includes/pi-metaboxes.php:85
+msgid "DB Type"
+msgstr "Veritabanı Türü"
+
+#: includes/pi-metaboxes.php:90
+msgid "DB Version"
+msgstr "Veritabanı Versiyonu"
+
+#: includes/pi-metaboxes.php:95
+msgid "DB Principals"
+msgstr "Veritabanı Sorumluluları"
+
+#: includes/pi-metaboxes.php:103
+msgid "Is the database backed up?"
+msgstr "Veritabanı yedekleniyor mu ?"
+
+#: includes/pi-metaboxes.php:110
 msgid "DB backup frequency?"
 msgstr "Veritabanı yedeklenme sıklığı ?"
 
-#: includes/pi-metaboxes.php:95
+#: includes/pi-metaboxes.php:113
 msgid "1 month"
 msgstr "1 Ay"
 
-#: includes/pi-metaboxes.php:96
+#: includes/pi-metaboxes.php:114
 msgid "2 month"
 msgstr "2 Ay"
 
-#: includes/pi-metaboxes.php:97
+#: includes/pi-metaboxes.php:115
 msgid "3 month"
 msgstr "3 Ay"
 
-#: includes/pi-metaboxes.php:98
+#: includes/pi-metaboxes.php:116
 msgid "Not backed up"
 msgstr "Yedeklenmiyor"
 
-#: includes/pi-metaboxes.php:105
+#: includes/pi-metaboxes.php:123
 msgid "Network Information"
 msgstr "Ağ Bilgileri"
 
-#: includes/pi-metaboxes.php:106
+#: includes/pi-metaboxes.php:124
 msgid "Project Network Information"
 msgstr "Projenin Ağ Bilgileri"
 
-#: includes/pi-metaboxes.php:116
+#: includes/pi-metaboxes.php:134
 msgid "HTTP"
 msgstr "HTTP"
 
-#: includes/pi-metaboxes.php:117
+#: includes/pi-metaboxes.php:135
 msgid "HTTPS"
 msgstr "HTTPS"
 
-#: includes/pi-metaboxes.php:118
+#: includes/pi-metaboxes.php:136
 msgid "Is the internet on"
 msgstr "İnternet açık mı"
 
-#: includes/pi-metaboxes.php:119
+#: includes/pi-metaboxes.php:137
 msgid "WAF"
 msgstr "WAF"
 
-#: includes/pi-metaboxes.php:120
+#: includes/pi-metaboxes.php:138
 msgid "DB behind the firewall"
 msgstr "Veritabanı firewall ile korunuyor mu"
 
-#: includes/pi-metaboxes.php:124
+#: includes/pi-metaboxes.php:142
 msgid "Internal IP addresses"
 msgstr "İç IP adresleri"
 
-#: includes/pi-metaboxes.php:130
+#: includes/pi-metaboxes.php:148
 msgid "Subnets"
 msgstr "Alt Ağlar (Subnets)"
 
-#: includes/pi-metaboxes.php:138
+#: includes/pi-metaboxes.php:156
 msgid "System Information"
 msgstr "Sistem Bilgileri"
 
-#: includes/pi-metaboxes.php:139
+#: includes/pi-metaboxes.php:157
 msgid "Project System Information"
 msgstr "Projenin Sistem Bilgileri"
 
-#: includes/pi-metaboxes.php:149
+#: includes/pi-metaboxes.php:167
 msgid "Have Log"
-msgstr "Log tutuluyor mu "
+msgstr "Log tutuluyor mu"
 
-#: includes/pi-metaboxes.php:150
+#: includes/pi-metaboxes.php:168
 msgid "Is it DMZ"
 msgstr "DMZ mi"
 
-#: includes/pi-metaboxes.php:151
+#: includes/pi-metaboxes.php:169
 msgid "Does the server have internet?"
-msgstr "Serverda internet var mı"
+msgstr "Serverda internet var mı ?"
 
-#: includes/pi-metaboxes.php:152
+#: includes/pi-metaboxes.php:170
 msgid "Is it up to date"
-msgstr "Güncel mi "
+msgstr "Güncel mi"
 
-#: includes/pi-metaboxes.php:156
+#: includes/pi-metaboxes.php:174
 msgid "Log Type"
 msgstr "Log türü"
 
-#: includes/pi-metaboxes.php:161
+#: includes/pi-metaboxes.php:179
 msgid "Os Version"
 msgstr "İşletim sistemi versiyonu"
 
-#: includes/pi-metaboxes.php:169
+#: includes/pi-metaboxes.php:187
 msgid "Devops Information"
 msgstr "Devops Bilgileri"
 
-#: includes/pi-metaboxes.php:170
+#: includes/pi-metaboxes.php:188
 msgid "Project Devops Information"
 msgstr "Projenin Devops Bilgileri"
 
-#: includes/pi-metaboxes.php:176
+#: includes/pi-metaboxes.php:194
 msgid "Pre-Prod Information"
 msgstr "Pre-Prod Bilgileri"
 
-#~ msgid "Affiliated Team ?"
-#~ msgstr "Bağlı Takım"
 
-#~ msgid "Item #"
-#~ msgstr "Nesne #"
-
-#~ msgid "New"
-#~ msgstr "Yeni"
-
-#~ msgid "Remove"
-#~ msgstr "Sil"
-
-#~ msgid "Choose"
-#~ msgstr "Seç"
-
-#~ msgid "Settings Saved."
-#~ msgstr "Ayarlar Kaydedildi."
-
-#~ msgid "Theme Options"
-#~ msgstr "Tema Ayarları"
-
-#~ msgid "Authors"
-#~ msgstr "Yazar"
-
-#~ msgid "Posts"
-#~ msgstr "Gönderiler"
-
-#~ msgid "Mine"
-#~ msgstr "Senin Kayıtların"
-
-#~ msgid "Comment: "
-#~ msgstr "Yorumlar:"
