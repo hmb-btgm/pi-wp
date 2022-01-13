@@ -21,6 +21,11 @@ function get_pi_categories( $pi ) {
   $teams = get_the_terms( $id, 'pi_categories');
   return $teams;
 }
+function get_pi_os( $pi ) {
+  $id = is_array($pi) && !empty($pi['id']) ? $pi['id'] : $pi->ID;
+  $pi = get_the_terms( $id, 'pi_os');
+  return $pi;
+}
   
 add_action( 'rest_api_init', function () {
   //pi project metaboxes
@@ -41,6 +46,11 @@ add_action( 'rest_api_init', function () {
   //pi project categories
   register_rest_field( 'pi', 'categories', array(
     'get_callback' => 'get_pi_categories',
+    'schema' => null
+  ));
+  //pi operating systems
+  register_rest_field( 'pi', 'os', array(
+    'get_callback' => 'get_pi_os',
     'schema' => null
   ));
   
@@ -78,6 +88,14 @@ add_action( 'rest_api_init', function () {
       ));
     }
 
+    if( !empty($os) ) {
+      array_push($args['tax_query'], array(
+        'taxonomy' => 'pi_os',
+        'field'    => 'slug',
+        'terms'    => explode(',',$os)
+      ));
+    }
+
     if( count( $args['tax_query'] ) == 0 ) {
       unset($args['tax_query']);
     }
@@ -87,5 +105,3 @@ add_action( 'rest_api_init', function () {
   
 });
 add_filter( 'rest_pi_query', 'add_filter_for_pi', 10, 2 );
-
-

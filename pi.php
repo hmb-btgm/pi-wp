@@ -21,6 +21,7 @@ define( 'PI_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'PI_PLUGIN_INC', PI_PLUGIN_DIR.'includes/' );
 define( 'PI_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
+require_once( PI_PLUGIN_INC.'pi-config.php' );
 require_once( PI_PLUGIN_INC.'plugin-activation.php' );
 require_once( PI_PLUGIN_INC.'pi-custom-module.php' );
 require_once( PI_PLUGIN_INC.'pi-redux.php' );
